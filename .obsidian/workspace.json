@@ -11,10 +11,14 @@
             "id": "be3b9a4b762ab371",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "markdown",
+              "state": {
+                "file": "okf/vault/KQI/260801.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260801"
             }
           }
         ]
@@ -205,12 +209,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "60ae39d9967b3e9e",
+  "active": "be3b9a4b762ab371",
   "lastOpenFiles": [
+    "okf/vault/KQI/260731.md",
+    "okf/vault/KQI/アドレス帳.md",
     "無題のファイル.base",
     "無題のファイル.canvas",
-    "okf/vault/KQI/260731.md",
-    "260801.md",
+    "okf/vault/KQI/260801.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260730_自由度と制限の曲率.md",
     "okf/vault/KQI/ast.py",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260729_ダンスの大元のテーマ決まったかも。.md",

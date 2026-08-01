@@ -180,12 +180,23 @@
           "icon": "lucide-file-signature",
           "title": "脚注"
         }
+      },
+      {
+        "id": "c0d0a388d0a60e34",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
       }
     ],
     "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "publish:パブリッシュによる変更の公開…": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
@@ -198,8 +209,9 @@
       "audio-recorder:録音の開始/停止": false
     }
   },
-  "active": "cb11554eb337380f",
+  "active": "d0f3a80eefef6636",
   "lastOpenFiles": [
+    "okf/vault/KQI/260801.md",
     "260801.md",
     "okf/vault/KQI/260731.md",
     "okf/vault/KQI/優先予定表(ここだけ色々変更可とします).md",
