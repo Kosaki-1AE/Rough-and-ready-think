@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "878ec2b4c6966d5a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8269cd305157cd8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04b5c88285cafc3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MyFeedbacks/Student_Age/College_Age/4thGradeSpringVacation/完　成　し　た　。.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "完　成　し　た　。"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "531dd0c6bafbfac1",
+    "type": "split",
+    "children": [
+      {
+        "id": "719ddd7b4ba329d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "033624c70c570629",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "7c1beaf35c7eb643",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "2a5bdbcb057265ad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d82848210cb5804e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9b79a17a72ff843",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "356b5c4bbf8c2d36",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MyFeedbacks/Student_Age/College_Age/4thGradeSpringVacation/完　成　し　た　。.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "完　成　し　た　。へのバックリンク"
+            }
+          },
+          {
+            "id": "645a4648a82897fe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MyFeedbacks/Student_Age/College_Age/4thGradeSpringVacation/完　成　し　た　。.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "完　成　し　た　。からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "97cef7f1c9d07d83",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "67cf1706ee269b55",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "befa0d62515d9689",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MyFeedbacks/Student_Age/College_Age/4thGradeSpringVacation/完　成　し　た　。.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "完　成　し　た　。のアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "04b5c88285cafc3f",
+  "lastOpenFiles": []
+}

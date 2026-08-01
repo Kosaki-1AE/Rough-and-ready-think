@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "7422b134509e9c3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "afdb5416f1816c8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fc38c24ca85f4ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260415 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260415 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7d24f1b6259fa410",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d2e6fe028f3afe2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "620fe5c06044669f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "b7ce4efc8e22ff03",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#計算機科学  ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "0305d4b63957be29",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300.5
+  },
+  "right": {
+    "id": "fa5d5a2f6f3fb85f",
+    "type": "split",
+    "children": [
+      {
+        "id": "00ed322f8b230906",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "117704b30d5f7152",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "260209.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "260209へのバックリンク"
+            }
+          },
+          {
+            "id": "3d2b39fec70cbe4c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "260102.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "260102からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "d72c038cee61b901",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "8cb02860d1c46c35",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "ae0610a70e441afc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "260102.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "260102のアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:新規ベースを作成": false
+    }
+  },
+  "active": "8fc38c24ca85f4ef",
+  "lastOpenFiles": [
+    "260415.md",
+    "260415 3.md",
+    "260415 2.md",
+    "260415(1).md",
+    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260413_アミノさんの構造。.md",
+    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260414_全ての「要素化」.md",
+    "260413.md",
+    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260412_語順＝意味の制御？.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/PagesAge/アドレス帳.md",
+    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260411_自由度って操れるっぽい。.md",
+    "260411.md",
+    "MyFeedbacks/StudentAge/3_GraduateAge/1stGrade/就活系のサイト(今後使うんかもな。).md",
+    "260406.md",
+    "MyFeedbacks/StudentAge/3_GraduateAge/1stGrade/260405_探索木の逆が力学系？.md",
+    "MyFeedbacks/Resources/Audios/gbmc_map_depth.png",
+    "MyFeedbacks/Resources/Audios/Epoch_50.png",
+    "MyFeedbacks/StudentAge/3_GraduateAge/1stGrade/GenesisとDepthからの流れ.md",
+    "MyFeedbacks/Resources/Audios/gbmc_paper_in5.png",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/251126_小テストすっぽかしたの巻(2年生のときのリベンジやるっすわ).md",
+    "MyFeedbacks/StudentAge/3_GraduateAge/1stGrade/260404_SPI対策1日目.md",
+    "MyFeedbacks/StudentAge/3_GraduateAge/1stGrade/俺流SPI対策.md",
+    "MyFeedbacks/StudentAge/3_GraduateAge/1stGrade/260403_頑張んなきゃかぁ…。.md",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Programs/Colab/sim_colabver(1).ipynb",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Programs/Colab/sim_base(1).ipynb",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Programs/Colab/sim(1).ipynb",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Programs/pdfmd.py",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Programs/mdtojson.py",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Programs/Colab",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Programs",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/長生きのための条件.md",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/酒と空気感.md",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/軸と運の選択.md",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢へのヒントの書き込み.md",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢の公式.md",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢と数学.md",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢.md",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Research/まとめ/Weight/Attention is all you need & Feedback.pdf",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow",
+    "MyFeedbacks/StudentAge/2_CollegeAge/4thGrade/Research/まとめ/Tempo/ReserachEndpoint",
+    "無題のファイル.canvas",
+    "MyFeedbacks/Resources/Audios/gbmc_map_genesis.png",
+    "MyFeedbacks/Resources/Audios/微わかる展.PNG",
+    "MyFeedbacks/Resources/Audios/良い人すぎるよ展.PNG",
+    "MyFeedbacks/Resources/Audios/まさお編.PNG",
+    "Pasted image 20260309205254.png",
+    "MyFeedbacks/Resources/Audios/responsibility_field.jpg",
+    "MyFeedbacks/Resources/Audios/Responsibility_field.PNG"
+  ]
+}

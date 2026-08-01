@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "39568722f6372eff",
+    "type": "split",
+    "children": [
+      {
+        "id": "0feb7555d637efdd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd4d0874bc02f85f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Epoch_40.png"
+              },
+              "icon": "lucide-image",
+              "title": "Epoch_40"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "90541245153ca661",
+    "type": "split",
+    "children": [
+      {
+        "id": "447851b7e1f8e585",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70953d66473f3ad7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "6dbeade3d8770033",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "d3ee02c7d3b06e03",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f8e5a0bc24512096",
+    "type": "split",
+    "children": [
+      {
+        "id": "7695a493d33efa55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55e8bdf1892620e9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Epoch_40.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Epoch_40へのバックリンク"
+            }
+          },
+          {
+            "id": "90b3eb0018516dbb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Epoch_40.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Epoch_40からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "e24fad56ccea845c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "71e0f6e25150a393",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "f621cb24a7704b22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Epoch_40.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Epoch_40のアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "70953d66473f3ad7",
+  "lastOpenFiles": [
+    "260215.md",
+    "Epoch_40.png",
+    "MyFeedbacks/Student_Age/College_Age/4thGradeSpringVacation/260214_ロジスティック写像結構汎用的かもなのね.md",
+    "MyFeedbacks/Student_Age/College_Age/4thGradeSpringVacation/260208_図面完成した.md",
+    "MyFeedbacks/Student_Age/College_Age/4thGradeSpringVacation/260209_これで「平等」だよな。.md",
+    "MyFeedbacks/Student_Age/College_Age/4thGradeSpringVacation/260210_来年の研究エグいかもw.md",
+    "MyFeedbacks/Student_Age/College_Age/4thGradeSpringVacation/260211_「あくせんと」と「もーら」.md",
+    "MyFeedbacks/Student_Age/College_Age/4thGradeSpringVacation/260212-13_卒論発表当日ーーー！.md"
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "e43ac042e804783a",
+    "type": "split",
+    "children": [
+      {
+        "id": "576ece9f173abe22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef793166bb91bc11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260608.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260608"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "690eb4990a7b993f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3965b42626b9eced",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1c26b3f05647222",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "8304b8aeddb560f9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "9e70d908acbd62e7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d3cf40c1921deab2",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d796695eeeee103",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a8e3eee92d896ec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "260608.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "260608へのバックリンク"
+            }
+          },
+          {
+            "id": "7a44d219a1933ced",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "260608.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "260608からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "be51f7ae8862788e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "eda6624bdf446458",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "2bffcb73a6ecbcec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "260608.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "260608のアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:新規ベースを作成": false
+    }
+  },
+  "active": "ef793166bb91bc11",
+  "lastOpenFiles": [
+    "260608 3.md",
+    "260608 2.md",
+    "260608(1).md",
+    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260507_空気感・上手さって定義できんの？？.md",
+    "260608.md",
+    "260608 2(1).md",
+    "260608.md"
+  ]
+}

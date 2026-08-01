@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "e2d2b6a0686f9ad4",
+    "type": "split",
+    "children": [
+      {
+        "id": "36b85954024040bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "699f3e6139b9a62f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260124 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260124 2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "52277067e6fc08bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e4391483cf50f0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1287ce0090ef0141",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "9735bacc6f53bb6e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "2b5fa4ab67af1fba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "29bd4086741cdb80",
+    "type": "split",
+    "children": [
+      {
+        "id": "f289fc68d58251fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eda956e5647353a9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "バックリンク"
+            }
+          },
+          {
+            "id": "cfe20806652b10b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "アウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "c7affc74a2485205",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "9902591887df163b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "ffa84989d03156b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "アウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "699f3e6139b9a62f",
+  "lastOpenFiles": [
+    "260124 3.md",
+    "260124 5.md",
+    "260124(1).md",
+    "260124.md",
+    "260124 4.md",
+    "260124 2.md",
+    "MyFeedbacks/Student_Age/College_Age/4thGrade/260123_もうそろ製品のアイデア考えるかぁ。.md",
+    "260123.md",
+    "MyFeedbacks/Student_Age/College_Age/4thGrade/260122_KIOXIAのDRAMが俺のBufferと同じだったの巻.md",
+    "MyFeedbacks/Student_Age/College_Age/4thGrade/260119_哲学：選択肢＝１：１.md",
+    "260121.md",
+    "MyFeedbacks/Student_Age/College_Age/4thGrade/260120_「束の間の夏休み」の明確な定義化ができましたー。.md",
+    "260120(1).md"
+  ]
+}
