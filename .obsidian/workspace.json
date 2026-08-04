@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "okf/vault/KQI/260803_.md",
+                "file": "okf/vault/KQI/260805.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260803_"
+              "title": "260805"
             }
           }
         ]
@@ -212,9 +212,10 @@
   },
   "active": "7ef39b139eeda5a2",
   "lastOpenFiles": [
-    "okf/vault/KQI/260804.md",
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260803_意味の保存範囲....ねぇ？.md",
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260804_人間の好都合って案外恐ろしいかもw.md",
+    "okf/vault/KQI/260805.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260802_数学界隈エグい衝撃らしいでww.md",
-    "okf/vault/KQI/260803_.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260801_情シスとやってること一緒やァん…。.md",
     "okf/vault/KQI/260801.md",
     "okf/vault/KQI/ターミナルで保存した出力",
@@ -240,7 +241,6 @@
     "LICENSE.md",
     "okf/bundles/ga4/datasets/ga4_obfuscated_sample_ecommerce.md",
     "okf/bundles/ga4/datasets/index.md",
-    "okf/samples/crypto_bitcoin/README.md",
-    "okf/SPEC.md"
+    "okf/samples/crypto_bitcoin/README.md"
   ]
 }
