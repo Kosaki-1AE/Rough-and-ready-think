@@ -5,6 +5,9 @@
 Thumbs.db
 desktop.ini
 
+# WSL
+*:Zone.Identifier
+
 # Obsidian（端末ごとの差分）
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
