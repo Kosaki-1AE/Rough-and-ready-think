@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "630a9af2d17711d4",
+        "id": "5fe68270d0fdd9e7",
         "type": "tabs",
         "children": [
           {
-            "id": "be3b9a4b762ab371",
+            "id": "7ef39b139eeda5a2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "okf/vault/KQI/260801.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "260801"
+              "title": "新規タブ"
             }
           }
         ]
@@ -210,12 +206,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be3b9a4b762ab371",
+  "active": "7ef39b139eeda5a2",
   "lastOpenFiles": [
+    "okf/vault/KQI/260801.md",
     "okf/vault/KQI/ターミナルで保存した出力",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260731_NTTエグすぎだったw.md",
     "okf/vault/KQI/260731.md",
-    "okf/vault/KQI/260801.md",
     "okf/vault/KQI/アドレス帳.md",
     "無題のファイル.base",
     "無題のファイル.canvas",
