@@ -1,3 +1,30 @@
+# macOS
 .DS_Store
-node_modules/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python
 .venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Obsidian (端末ごとの差分)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian Git
+**/obsidian_askpass.sh
+
+# Windows ADS
+*:Zone.Identifier
+
+# Trash
+.trash/
+
+# Git backup
+.Documents_git_backup.git/

@@ -11,10 +11,14 @@
             "id": "2cd885037598eb3e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "260805.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "260805"
             }
           }
         ]
@@ -162,6 +166,16 @@
               "icon": "lucide-list",
               "title": "260730のアウトライン"
             }
+          },
+          {
+            "id": "57e1774b868cd558",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ]
       }
@@ -180,7 +194,8 @@
       "command-palette:コマンドパレットを開く": false,
       "markdown-importer:Markdownインポーターを開く": false,
       "audio-recorder:録音の開始/停止": false,
-      "bases:新規ベースを作成": false
+      "bases:新規ベースを作成": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "2cd885037598eb3e",
