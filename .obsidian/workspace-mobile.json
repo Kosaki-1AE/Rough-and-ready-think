@@ -51,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#Mine研究",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -102,7 +102,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "cb1f2c1067b836ca",
@@ -196,6 +196,16 @@
   },
   "active": "af9f3ec83943d656",
   "lastOpenFiles": [
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge",
+    "/okf/vault/KQI/MyFeedbacks",
+    "/okf/vault/KQI",
+    "/okf/vault",
+    "/okf",
+    "/okf/vault/KQI/260805.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260519_責任の上澄み.md",
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260519_責任の上澄み.md",
     "okf/vault/KQI/260803_.md",
     "260805.md",
     "okf/vault/KQI/アドレス帳.md",
@@ -217,10 +227,6 @@
     "260731.md",
     "okf/bundles/acme_retail/computations/revenue-ytd.md",
     "okf/bundles/acme_retail/computations/gross-margin-period.md",
-    "okf/bundles/acme_retail/computations/index.md",
-    "okf/bundles/acme_retail/attesters/index.md",
-    "okf/samples/stackoverflow/README.md",
-    "okf/samples/ga4_merch_store/README.md",
-    "okf/samples/crypto_bitcoin/README.md"
+    "okf/bundles/acme_retail/computations/index.md"
   ]
 }
