@@ -187,6 +187,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "markdown-importer:Markdownインポーターを開く": false,
       "audio-recorder:録音の開始/停止": false,
       "publish:パブリッシュによる変更の公開…": false,
