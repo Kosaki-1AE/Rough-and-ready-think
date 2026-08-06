@@ -228,10 +228,12 @@ git log --oneline --decorate -5
 merge conflict → 「<<<<<<<=======>>>>>>>」を消して内容だけ残す。
 Zone.Identifier → Windowsの付加情報。削除して問題なし。
 
+GitHubのPATとして使ってくれ(有効期限は一年後の今日！！)⬇️
+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
+
 無理っぽい、なぜだぁぁぁぁ.......。
 ⬆️出来てましたごめんw
 
 #人間関係/愛情 
 女子においても「単純」と「複雑」っていう分けられる部分があるっぽくてな。
 つまりは「肌感」とかその類なんだけどねw この単純と複雑とを分けるのが「肌感」っていうねw
-
