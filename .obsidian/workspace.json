@@ -202,6 +202,7 @@
   },
   "active": "7ef39b139eeda5a2",
   "lastOpenFiles": [
+    "260806.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260803_意味の保存範囲....ねぇ？.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260804_人間の好都合って案外恐ろしいかもw.md",
     "okf/vault/KQI/260805.md",
@@ -230,7 +231,6 @@
     "CONTRIBUTING.md",
     "LICENSE.md",
     "okf/bundles/ga4/datasets/ga4_obfuscated_sample_ecommerce.md",
-    "okf/bundles/ga4/datasets/index.md",
-    "okf/samples/crypto_bitcoin/README.md"
+    "okf/bundles/ga4/datasets/index.md"
   ]
 }
