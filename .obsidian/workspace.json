@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "okf/vault/KQI/260806.md",
+                "file": "okf/vault/KQI/260807.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260806"
+              "title": "260807"
             }
           }
         ]
@@ -202,8 +202,9 @@
   },
   "active": "7ef39b139eeda5a2",
   "lastOpenFiles": [
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260805_結局Windows繋げられんかった....。.md",
+    "okf/vault/KQI/260807.md",
     "okf/vault/KQI/260806.md",
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260805_結局Windows繋げられんかった....。.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260803_意味の保存範囲....ねぇ？.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260804_人間の好都合って案外恐ろしいかもw.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260802_数学界隈エグい衝撃らしいでww.md",
@@ -230,7 +231,6 @@
     "README.md",
     "CONTRIBUTING.md",
     "LICENSE.md",
-    "okf/bundles/ga4/datasets/ga4_obfuscated_sample_ecommerce.md",
-    "okf/bundles/ga4/datasets/index.md"
+    "okf/bundles/ga4/datasets/ga4_obfuscated_sample_ecommerce.md"
   ]
 }
