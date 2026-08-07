@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5fe68270d0fdd9e7",
+        "id": "10d3a245105cdb06",
         "type": "tabs",
         "children": [
           {
-            "id": "7ef39b139eeda5a2",
+            "id": "af4efe4146567f85",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -200,13 +200,15 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "7ef39b139eeda5a2",
+  "active": "af4efe4146567f85",
   "lastOpenFiles": [
+    "Graph.md",
+    "okf/vault/KQI/260807.md",
+    "TraversalResult.md",
     "okf/src/reference_agent/prompts/reference_instruction.md",
     "okf/bundles/ga4/datasets/ga4_obfuscated_sample_ecommerce.md",
     "okf/bundles/ga4/datasets/index.md",
     "okf/samples/crypto_bitcoin/README.md",
-    "okf/vault/KQI/260807.md",
     "okf/LICENSE.md",
     "okf/SPEC.md",
     "okf/README.md",
@@ -229,8 +231,6 @@
     "toolbox/mdcode/demo/okf/catalog/datasets/ga4_obfuscated_sample_ecommerce.md",
     "toolbox/mdcode/demo/okf/catalog/references/metrics/acquired_users.md",
     "toolbox/mdcode/demo/okf/catalog/references/metrics/frequently_active_users.md",
-    "toolbox/mdcode/demo/okf/catalog/references/metrics/google_acquired_cohorts.md",
-    "toolbox/mdcode/demo/okf/catalog/references/metrics/highly_active_users.md",
-    "toolbox/mdcode/demo/okf/catalog/index.md"
+    "toolbox/mdcode/demo/okf/catalog/references/metrics/google_acquired_cohorts.md"
   ]
 }
