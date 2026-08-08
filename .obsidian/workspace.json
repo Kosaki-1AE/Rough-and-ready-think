@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "okf/vault/definition/type.md",
+                "file": "okf/vault/KQI/260808.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "type"
+              "title": "260808"
             }
           }
         ]
@@ -202,8 +202,8 @@
   },
   "active": "7ef39b139eeda5a2",
   "lastOpenFiles": [
-    "okf/vault/KQI/260808.md",
     "okf/vault/definition/type.md",
+    "okf/vault/KQI/260808.md",
     "okf/vault/KQI/260805.md",
     "okf/vault/definition",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260807_とりあえず定義だけ。.md",
