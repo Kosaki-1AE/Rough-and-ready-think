@@ -13,7 +13,7 @@ C言語：.c → .i → .s → .o → 実行ファイル
 Jcva：.java → .class → JVM
 Rust：.rs → MIR → LLVM IR → .o → 実行
 
-#パソコン/git
+#/git
 git用のやつ作っとくわ。あまりにも今後使わないとやって行けなさすぎる気がしててな。
 
 #ダンス 
