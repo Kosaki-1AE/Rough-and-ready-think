@@ -1,1 +1,1 @@
-#[@type:[[type]]]:type
+#[Mine研究[@type:Mine研究]]
