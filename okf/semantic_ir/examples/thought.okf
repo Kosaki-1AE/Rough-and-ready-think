@@ -1,0 +1,12 @@
+# Minimal OKF semantic tag example
+
+#[DFS]
+#[DFS[@type:Algorithm]]
+#[DFS := 深さ優先探索]
+#[DFS [[Graph]] => [[TraversalResult]]]
+
+#[Graph[@type:DataStructure]]
+#[TraversalResult[@type:Result]]
+
+# Normal Markdown remains normal Markdown.
+DFS はグラフを深さ方向へ探索するアルゴリズムである。
