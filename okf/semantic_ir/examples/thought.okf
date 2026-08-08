@@ -1,7 +1,12 @@
-# A tiny thought graph
-興味 : 「気になる」を起点に候補を生成する状態
-興味 -> 観測
-観測 -> 認識
-認識 + 予測誤差 -> 比較
-比較 -> ? 差分が存在する : 選択 | 再観測
-選択 -> 検証 × 記録
+# Minimal OKF semantic tag example
+
+#[DFS]
+#[DFS[@type:Algorithm]]
+#[DFS := 深さ優先探索]
+#[DFS [[Graph]] => [[TraversalResult]]]
+
+#[Graph[@type:DataStructure]]
+#[TraversalResult[@type:Result]]
+
+# Normal Markdown remains normal Markdown.
+DFS はグラフを深さ方向へ探索するアルゴリズムである。
