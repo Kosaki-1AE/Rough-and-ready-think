@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "okf/vault/KQI/260807.md",
+                "file": "okf/vault/KQI/260808.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260807"
+              "title": "260808"
+            }
+          },
+          {
+            "id": "f30bbf490d32f5cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "okf/vault/definition/type.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "type"
+            }
+          },
+          {
+            "id": "ee1327d5950b027b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "okf/vault/KQI/260808.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260808"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,10 +223,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51b2b4fcf867233b",
+  "active": "d0f3a80eefef6636",
   "lastOpenFiles": [
+    "okf/vault/KQI/260808.md",
+    "okf/vault/definition/type.md",
+    "okf/SPEC.md",
+    "okf/vault/definition",
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260807_とりあえず定義だけ。.md",
     "260807.md",
-    "okf/vault/KQI/260807.md",
     "okf/vault/KQI/260806.md",
     "okf/vault/KQI/260805.md",
     "260806.md",
@@ -225,9 +258,6 @@
     "260801.md",
     "okf/vault/KQI/優先予定表(ここだけ色々変更可とします).md",
     "okf/vault/KQI/260730.md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260710_全然整理できなぁx愛.md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260708_実質、2周目。.md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260707_なんだかんだ論文俺の方に寄って来ててワロス.md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260618_おそらくこんなもんなんでしょうね。就活なんて。.md"
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260710_全然整理できなぁx愛.md"
   ]
 }
