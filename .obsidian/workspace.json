@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "okf/vault/definition/type.md",
+                "file": "okf/vault/KQI/260810.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "type"
+              "title": "260810"
             }
           }
         ]
@@ -202,9 +202,11 @@
   },
   "active": "af4efe4146567f85",
   "lastOpenFiles": [
+    "okf/vault/KQI/260810 2.md",
+    "okf/vault/KQI/260810.md",
+    "okf/vault/definition/type.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260808_なんかできそうでできないのウザいぃぃぃ.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260519_責任の『上澄み』.md",
-    "okf/vault/KQI/260810.md",
     "okf/vault/KQI/260809.md",
     "okf/semantic_ir/examples/thought.okf",
     "okf/semantic_ir/okf_ir.py",
@@ -212,7 +214,6 @@
     "okf/semantic_ir/README.md",
     "okf/semantic_ir",
     "okf/vault/KQI/260808.md",
-    "okf/vault/definition/type.md",
     "okf/vault/KQI/260807.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260807_とりあえず定義だけ。.md",
     "okf/vault/definition",
@@ -233,7 +234,6 @@
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260801_情シスとやってること一緒やァん…。.md",
     "okf/vault/KQI/260801.md",
     "okf/vault/KQI/ターミナルで保存した出力",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260731_NTTエグすぎだったw.md",
     "無題のファイル.base",
     "無題のファイル.canvas",
     "okf/vault/KQI/ast.py"

@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "657ff2538bd4146b",
+        "id": "1856d61b9e3a90e3",
         "type": "tabs",
         "children": [
           {
-            "id": "51b2b4fcf867233b",
+            "id": "f10484546ed75e34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "okf/vault/KQI/260808.md",
+                "file": "okf/vault/KQI/260810.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260808"
-            }
-          },
-          {
-            "id": "f30bbf490d32f5cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "okf/vault/definition/type.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "type"
-            }
-          },
-          {
-            "id": "ee1327d5950b027b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "okf/vault/KQI/260808.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "260808"
+              "title": "260810"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +114,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "okf/vault/KQI/260805.md",
+            "file": "okf/vault/KQI/260810.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -204,9 +175,19 @@
           "icon": "lucide-ghost",
           "title": "calendar"
         }
+      },
+      {
+        "id": "7774e12bd79625ef",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,41 +204,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d0f3a80eefef6636",
+  "active": "f10484546ed75e34",
   "lastOpenFiles": [
-    "okf/vault/KQI/260808.md",
-    "okf/vault/definition/type.md",
-    "okf/SPEC.md",
-    "okf/vault/definition",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260807_とりあえず定義だけ。.md",
-    "260807.md",
-    "okf/vault/KQI/260806.md",
-    "okf/vault/KQI/260805.md",
-    "260806.md",
-    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade",
-    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge",
-    "/okf/vault/KQI/MyFeedbacks/StudentAge",
-    "/okf/vault/KQI/MyFeedbacks",
+    "okf/vault/KQI/260810.md",
+    "okf/vault/KQI/260810 2.md",
+    "conflict-files-obsidian-git.md",
+    "okf/vault/KQI/260809.md",
+    "/okf/vault/KQI/260810.md",
     "/okf/vault/KQI",
     "/okf/vault",
     "/okf",
-    "/okf/vault/KQI/260805.md",
-    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260519_責任の上澄み.md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260519_責任の上澄み.md",
-    "okf/vault/KQI/260803_.md",
-    "260805.md",
-    "okf/vault/KQI/アドレス帳.md",
-    "okf/vault/KQI/260803.md",
-    "okf/vault/KQI/260802.md",
-    "260804.md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260702_エグい論文めっけたかも。.md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260701_回路と数学と心理と….md",
-    "okf/vault/KQI/MyFeedbacks/Resources/Audios/260630_なんか他のジャンルに正解があるってさ(Claudeすげぇww).md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260801_情シスとやってること一緒やァん…。.md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260731_NTTエグすぎだったw.md",
-    "260801.md",
-    "okf/vault/KQI/優先予定表(ここだけ色々変更可とします).md",
-    "okf/vault/KQI/260730.md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260710_全然整理できなぁx愛.md"
+    "/okf/vault/KQI/260809.md",
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260808_なんかできそうでできないのウザいぃぃぃ.md",
+    "okf/vault/definition/type.md",
+    "okf/semantic_ir/README.md",
+    "okf/semantic_ir/examples/thought.okf",
+    "okf/semantic_ir/examples",
+    "okf/semantic_ir/okf_ir.py",
+    "/okf/semantic_ir/okf_ir.py",
+    "/okf/semantic_ir/examples/thought.okf",
+    "/okf/semantic_ir/README.md",
+    "/okf/semantic_ir/examples",
+    "/okf/semantic_ir",
+    "/okf/vault/KQI/260808.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260807_とりあえず定義だけ。.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260806_整合性とかいう個別チート.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260805_結局Windows繋げられんかった....。.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260804_人間の好都合って案外恐ろしいかもw.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260803_意味の保存範囲....ねぇ？.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260802_数学界隈エグい衝撃らしいでww.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260801_情シスとやってること一緒やァん…。.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260729_ダンスの大元のテーマ決まったかも。.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260728_親からの責任、受け継ぐ？.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260726_風見だけでミスなんてあるんやなぁ…。.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260725_花火大会にて。.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260724_OKFへの欲求仕様.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260723_OKFッッッッ.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260721_どうも決まってきたっぽいぞ？.md",
+    "/okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260720_スペイン戦良かったなぁ。.md"
   ]
 }

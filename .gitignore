@@ -51,3 +51,5 @@ node_modules/
 # Git backup
 # ==========================
 .Documents_git_backup.git/
+
+/okf/vault/KQI/260810.md
