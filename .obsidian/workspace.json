@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "af4efe4146567f85",
+            "id": "e969fa9394d89569",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -200,14 +200,12 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "af4efe4146567f85",
+  "active": "e969fa9394d89569",
   "lastOpenFiles": [
     "kit-proxy.ps1",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260809_Gitやるのガチ面倒くさいんやがw 楽しいは楽しいんでいいんすけどw.md",
-    "conflict-files-obsidian-git.md",
-    "okf/vault/KQI/260810.md",
-    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260810_基本情報の勉強やるぞい.md",
     "okf/vault/KQI/260811.md",
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260810_基本情報の勉強やるぞい.md",
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260809_Gitやるのガチ面倒くさいんやがw 楽しいは楽しいんでいいんすけどw.md",
     "okf/vault/KQI/260810 2.md",
     "okf/vault/definition/type.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260808_なんかできそうでできないのウザいぃぃぃ.md",
@@ -233,6 +231,8 @@
     "okf/README.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260806_整合性とかいう個別チート.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260805_結局Windows繋げられんかった....。.md",
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260803_意味の保存範囲....ねぇ？.md",
+    "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260804_人間の好都合って案外恐ろしいかもw.md",
     "okf/vault/KQI/ターミナルで保存した出力",
     "無題のファイル.base",
     "無題のファイル.canvas",
