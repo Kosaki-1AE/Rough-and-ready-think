@@ -53,3 +53,5 @@ node_modules/
 .Documents_git_backup.git/
 
 /okf/vault/KQI/260810.md
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
