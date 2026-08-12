@@ -11,10 +11,14 @@
             "id": "e969fa9394d89569",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "okf/vault/KQI/260812.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "260812"
             }
           }
         ]
@@ -76,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "058c143c81adb2c2",
@@ -198,9 +203,9 @@
   },
   "active": "e969fa9394d89569",
   "lastOpenFiles": [
-    "okf/vault/KQI/260811.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260811_何か知らんが独自の言語できてきたww.md",
     "okf/vault/KQI/260812.md",
+    "okf/vault/KQI/260811.md",
     "kit-proxy.ps1",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260810_基本情報の勉強やるぞい.md",
     "okf/vault/KQI/MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260809_Gitやるのガチ面倒くさいんやがw 楽しいは楽しいんでいいんすけどw.md",
