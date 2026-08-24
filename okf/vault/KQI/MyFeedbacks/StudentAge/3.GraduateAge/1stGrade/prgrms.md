@@ -1,0 +1,125 @@
+```Python
+import.Port(x) = (
+/* =========================================================
+＃       Layer 1 : State
+＃       何が変わったか
+========================================================= */
+	Port(x) = convert(
+		Input -> "$delta_z"
+		Weight -> "$abln2"
+		Memory -> "tau"
+	);
+	
+	Field = (
+		Resolution = r;
+		Element = decompose(Input, Resolution);
+		Relation = relate(Element);
+		
+	    Range    = range(-0.5, 0.5);
+	    Boundary = boundary(Input, Resolution);
+	    Step     = 0.1;
+	);
+	
+	Relation = relate(
+	    Element,
+	    {AND, OR, XOR}
+	);
+	
+	Current.Field = snapshot(Field);
+
+	Next.Field = update(
+	    Current.Field,
+	    Port(x)
+	);
+	
+	Next.Field.Resolution = resolve(
+	    Current.Field,
+	    Port(x)
+	);
+	
+	Next.Field.Element = decompose(
+	    Port(x),
+	    Next.Field.Resolution
+	);
+	
+	Next.Field.Relation = relate(
+	    Next.Field.Element,
+	    {AND, OR, XOR}
+	);
+	
+	Current.State = Field.state;
+	
+	Next.Field.State = Current.Field.State + (Port(x) - Current.Field.State) / tau * dt;
+	
+/* ==========================================================
+＃       Layer 2 : Identity
+＃       変化前後を同じものとして扱えるか
+========================================================= */
+
+	bool Identity;
+
+	if (Field.Boundary.min < Next.State && Next.State < Field.Boundary.max) {
+		Identity = 1;
+		result   = ACCEPT;
+		return 0;
+		
+	} else if (Next.State == Field.Boundary.min || Next.State == Field.Boundary.max) {
+		Identity = 0;
+		result   = TRANSITION;
+		return 0;
+		
+	} else {
+		result = REJECT;
+		return 1;
+	}
+	
+/* =========================================================
+＃       Layer 3 : Meaning
+＃       そのIdentity判定を、全体としてどう解釈するか
+========================================================= */
+
+	Meaning = evaluate(
+        Current.State -> Before
+        Next.State    -> After
+        Identity      -> Identity
+        result        -> Result
+        Field.Range   -> Range
+        Field.Boundary -> Boundary
+    );
+    Global = (
+        Target = Meaning.Target;
+        Loss   = loss(Meaning, Target);
+    );
+
+    if (result != REJECT && Global.Loss <= Global.Threshold) {
+        preserve.Meaning;
+        Field.state = Next.State;
+
+    } else if (result != REJECT && Global.Loss > Global.Threshold) {
+        reframe.Identity(
+            Field.Range,
+            Field.Boundary,
+            Meaning
+        );
+
+    } else {
+        reject.Port(x);
+        return 1;
+    }
+    
+/* =========================================================
+＃       Action
+＃       全体整合と個別整合が両方とも同じと見れた場合のみActionになる
+========================================================= */
+
+	if (Identity == 1) {
+        accept.Port(x);
+
+    } else {
+        transition.Port(x);
+    }
+
+    continue_action;
+    return exit;
+}
+```
