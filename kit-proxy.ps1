@@ -13,8 +13,8 @@ if ($ssid -eq "KIT-WLAP2") {
 }
 else {
 
-    # & $git config --global --unset http.proxy  2>$null
-    # & $git config --global --unset https.proxy 2>$null
+    & $git config --global --unset http.proxy  2>$null
+    & $git config --global --unset https.proxy 2>$null
 
-    # Write-Host "KIToutside : Proxy ON"
+    Write-Host "KIToutside : Proxy ON"
 }
