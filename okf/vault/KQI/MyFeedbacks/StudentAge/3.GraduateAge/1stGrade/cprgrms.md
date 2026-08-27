@@ -16,6 +16,27 @@ typedef enum {
     ACTION_REJECT = 2
 } Action;
 
+typedef enum {
+    STAGE_G_SET = 0,
+    STAGE_B_HIT,
+    STAGE_M_SHOOT,
+    STAGE_C1_VECTOR,
+    STAGE_C2_RESPONSIBILITY,
+    STAGE_Q_SCALAR,
+    STAGE_S_OFF_PREPARE,
+    STAGE_D_OFF
+} Stage;
+
+typedef struct {
+    double x;
+    double y;
+} Vec2;
+
+typedef struct {
+    double B;
+    double S;
+} Reference;
+
 typedef struct {
     double input;
     double weight;
