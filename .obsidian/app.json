@@ -23,5 +23,6 @@
     "editor:unindent-list",
     "editor:configure-toolbar"
   ],
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }
