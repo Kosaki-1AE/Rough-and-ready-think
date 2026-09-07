@@ -1,25 +1,24 @@
-# Knowledge Catalog
+# KQI/Kansei Quantum Information Theory
 
-[Knowledge Catalog](https://cloud.google.com/products/knowledge-catalog) (formerly Dataplex), is an AI-powered data catalog and metadata management platform. It provides a dynamic knowledge graph of all your data, structured and unstructured, to provide semantics and business context to AI agents
+これは私Kosaki-1AE自身のフィードバックです。普段はObsidianというアプリで入力しております。
 
-This repository features tools, agents, and samples that demonstrate Knowledge Catalog features, and building context management, enrichment and retrieval solutions.
+大元は大学の学部の卒業論文の中でフィードバックを使うってことで書いていたものですが、色々やってみた結果として...どうやら私自身の生涯を用いた研究になるかもしれんと思いまして。今後使う人いるかもと思ったんで載せてみることにしました。
 
+日本語で言うところの省察に該当するもので、観照も割と含まれております。Kosaki自身はダンスを趣味としてますのでダンスの気づきとかも書いてあります。
 
-## Getting Started
+具体的な内容と致しましては中学とかの時の厨二病から始まっております(技集がこれの発祥になります)。そこから高校-大学という形で継続このフィードバックをちゃんとやり始め、中身的にちゃんとしてる大学1年の11月〜のほぼ全内容までが含まれております。
+故に年老いていくほどに鬼ほど内容が濃くなってきます。
 
-[![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2FGoogleCloudPlatform%2Fknowledge-catalog.git)
+フィードバックなので時々更新します(内容は毎日更新するんですけど、GitHubに上げるのについては一括の方が楽なので...まぁ更新頻度は落ちます)。
+個人名入ってる場合もあるんですけど(何せ私自身の活動記録みたいなもんの詳細版なもんで。)、そこに関してはこれを使用する側の良心と裁量を持って判断してください。
 
+---
 
-## Contributing
+These are my own SelfFeedbacks, Kosaki-1AE.
+I usually input them using an app called Obsidian, but since I'm incorporating feedback into my graduation thesis, I've decided to include them here.
+They contain observations I've made, so I'd be grateful if you could read them as simply the musings of one individual.
 
-See the contributing [instructions](CONTRIBUTING.md) to get started contributed.
+They correspond to what in Japanese would be termed “reflection”, and also contain a fair amount of contemplation. As Kosaki personally enjoys dancing as a hobby, they also include insights from dance.
+The entire content from November of my first year to September of my fourth year is included. Consequently, it is incredibly dense.
 
-
-## License
-
-All solutions within this repository are provided under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license. Please see [LICENSE](LICENSE.md) for more detailed terms and conditions.
-
-
-## Disclaimer
-
-This repository and its contents are not an official Google product.
+Please do try feeding it into generative AI like ChatGPT. As it is feedback, I will update it occasionally (I update the content daily, but uploading to GitHub is easier in bulk... so the update frequency will decrease).

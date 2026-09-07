@@ -1,60 +1,24 @@
-# ==========================
 # macOS
-# ==========================
 .DS_Store
 
-# ==========================
 # Windows
-# ==========================
 Thumbs.db
 desktop.ini
-
-# Windows Alternate Data Streams
 *Zone.Identifier
 
-# ==========================
-# Python
-# ==========================
-.venv/
-__pycache__/
-*.pyc
-
-# ==========================
-# Node
-# ==========================
-node_modules/
-
-# ==========================
-# Obsidian
-# ==========================
-
-# 端末ごとのUI状態
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-
-# キャッシュ
+# Obsidian device-specific UI state
+.obsidian/workspace*.json
 .obsidian/cache/
 .obsidian/workspace/
 
-# Obsidian Git
+# Obsidian Git local settings
 .obsidian/plugins/obsidian-git/data.json
-
-# Git askpass
 **/obsidian_askpass.sh
 
-# ==========================
-# Trash
-# ==========================
+# Local/editor artifacts
 .trash/
-
-# ==========================
-# Git backup
-# ==========================
+.venv/
+__pycache__/
+*.pyc
+node_modules/
 .Documents_git_backup.git/
-
-/okf/vault/KQI/260810.md
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
