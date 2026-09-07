@@ -22,3 +22,11 @@ They correspond to what in Japanese would be termed “reflection”, and also c
 The entire content from November of my first year to September of my fourth year is included. Consequently, it is incredibly dense.
 
 Please do try feeding it into generative AI like ChatGPT. As it is feedback, I will update it occasionally (I update the content daily, but uploading to GitHub is easier in bulk... so the update frequency will decrease).
+
+---
+
+## VaultとOKF
+
+このリポジトリのルートがObsidian Vaultです。スマホはKQIフォルダを直接開き、PCのOKFは同じVaultへ接続します。ノートの二重管理はしません。
+
+接続手順：[OKF接続](OKF接続.md)
