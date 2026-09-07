@@ -11,14 +11,10 @@
             "id": "206200024b91b159",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "260730.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "260730"
+              "title": "新規タブ"
             }
           }
         ]
@@ -169,6 +165,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:パブリッシュによる変更の公開…": false,
+      "obsidian-git:Open Git source control": false,
       "markdown-importer:Markdownインポーターを開く": false,
       "audio-recorder:録音の開始/停止": false,
       "bases:新規ベースを作成": false,
