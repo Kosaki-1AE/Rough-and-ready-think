@@ -29,4 +29,4 @@ Please do try feeding it into generative AI like ChatGPT. As it is feedback, I w
 
 このリポジトリのルートがObsidian Vaultです。スマホはKQIフォルダを直接開き、PCのOKFは同じVaultへ接続します。ノートの二重管理はしません。
 
-接続手順：[OKF接続](OKF接続.md)
+接続手順：[OKF接続](MyFeedbacks/OKF接続.md)

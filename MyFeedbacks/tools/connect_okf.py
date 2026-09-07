@@ -36,7 +36,7 @@ def main():
     parser.add_argument("--check", action="store_true", help="Check without changing files")
     args = parser.parse_args()
     try:
-        print(connect(args.okf, Path(__file__).resolve().parents[1], args.check))
+        print(connect(args.okf, Path(__file__).resolve().parents[2], args.check))
     except (OSError, ValueError) as exc:
         parser.exit(1, str(exc) + "\n")
 

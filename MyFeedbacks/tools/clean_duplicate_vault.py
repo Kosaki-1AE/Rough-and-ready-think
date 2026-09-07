@@ -47,7 +47,7 @@ def clean(root, apply=False):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--vault", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument("--vault", type=Path, default=Path(__file__).resolve().parents[2])
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
     try:

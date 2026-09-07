@@ -65,7 +65,7 @@ def main():
     parser.add_argument("--checkout", type=Path,
                         help="External upstream checkout; defaults to ../knowledge-catalog-upstream")
     args = parser.parse_args()
-    vault = Path(__file__).resolve().parents[1]
+    vault = Path(__file__).resolve().parents[2]
     try:
         update(args.checkout or vault.parent / "knowledge-catalog-upstream", vault)
     except (OSError, ValueError, subprocess.CalledProcessError) as exc:

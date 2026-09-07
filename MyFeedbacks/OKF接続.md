@@ -2,7 +2,7 @@
 
 ## ノートの本体
 
-KQIリポジトリのルートをObsidian Vaultとして使います。既存ノートのサブフォルダは維持します。スマホもこのルートを開きます。
+KQIリポジトリのルートをObsidian Vaultとして使います。Resources・StudentAge・tools・接続手順・アドレス帳・優先予定表は MyFeedbacks 内にまとめます。スマホもこのルートを開きます。
 
 OKF本体はKQIの外にある GoogleCloudPlatform/knowledge-catalog の独立したGitチェックアウトで管理します。外部チェックアウトの okf/vault/KQI がKQI本体を参照します。スマホにはOKF本体もリンクも不要です。
 
@@ -11,13 +11,13 @@ OKF本体はKQIの外にある GoogleCloudPlatform/knowledge-catalog の独立�
 PCでKQIルートから実行します（Python 3.9以降、Gitが必要）。
 
 ```sh
-python3 tools/update_okf.py
+python3 MyFeedbacks/tools/update_okf.py
 ```
 
 初回は隣の knowledge-catalog-upstream に元リポジトリを取得し、次回以降は origin/main をfast-forwardで更新します。OKFへの接続も同時に確認します。配置先を変える場合：
 
 ```sh
-python3 tools/update_okf.py --checkout /path/to/knowledge-catalog-upstream
+python3 MyFeedbacks/tools/update_okf.py --checkout /path/to/knowledge-catalog-upstream
 ```
 
 - 更新元：https://github.com/GoogleCloudPlatform/knowledge-catalog
@@ -32,7 +32,7 @@ python3 tools/update_okf.py --checkout /path/to/knowledge-catalog-upstream
 既存の独立OKFに接続だけする場合は従来どおり：
 
 ```sh
-python3 tools/connect_okf.py --okf /path/to/okf
+python3 MyFeedbacks/tools/connect_okf.py --okf /path/to/okf
 ```
 
 Windowsでは python3 を python に置き換えられます。シンボリックリンク作成にはWindows側の設定・権限が必要な場合があります。
@@ -44,8 +44,8 @@ Windowsでは python3 を python に置き換えられます。シンボリッ�
 旧 okf/vault/KQI がある実際のローカルVaultで、PCから以下を実行できます。
 
 ```sh
-python3 tools/clean_duplicate_vault.py --vault /path/to/actual-vault
-python3 tools/clean_duplicate_vault.py --vault /path/to/actual-vault --apply
+python3 MyFeedbacks/tools/clean_duplicate_vault.py --vault /path/to/actual-vault
+python3 MyFeedbacks/tools/clean_duplicate_vault.py --vault /path/to/actual-vault --apply
 ```
 
 最初は比較のみです。--apply は直下の同じ相対パスとバイト単位で一致するコピーだけを削除します。片側にしかないファイル、内容が異なるノート、隠しファイル、リンクは削除しません。空になったフォルダだけ取り除きます。OKF本体が残っていればそれも保持します。
