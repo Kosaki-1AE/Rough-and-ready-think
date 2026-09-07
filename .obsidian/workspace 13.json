@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "122de5c9bced87aa",
+    "id": "95c1b1d85dca34c0",
     "type": "split",
     "children": [
       {
-        "id": "0ad8aedfc2eeb09e",
+        "id": "9dc9535e94331041",
         "type": "tabs",
         "children": [
           {
-            "id": "30c1ca28a3969abc",
+            "id": "4ce401aea9fd021f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyFeedbacks/Student_Age/College_Age/4thGrade/260111_メモリ構造決まってきた.md",
+                "file": "Student_Age/College_Age/4thGrade/250623_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260111_メモリ構造決まってきた"
+              "title": "250623_"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9ea1e143ed3ee439",
+    "id": "f49f374f03ddf212",
     "type": "split",
     "children": [
       {
-        "id": "7ed841c40a6b7c06",
+        "id": "f9429f9f789e1ae7",
         "type": "tabs",
         "children": [
           {
-            "id": "eddcff3a1129170a",
+            "id": "7ac56e527c819724",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,11 +44,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "ファイルエクスプローラ"
+              "title": "Files"
             }
           },
           {
-            "id": "22ba398d1da81620",
+            "id": "e70b881a8ad7fbc7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "検索"
+              "title": "Search"
             }
           },
           {
-            "id": "1e5639de5d539fc1",
+            "id": "f29147ae6861fddb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "ブックマーク"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,15 +81,15 @@
     "width": 300
   },
   "right": {
-    "id": "b6881674c5db83be",
+    "id": "9852a9f8a771af92",
     "type": "split",
     "children": [
       {
-        "id": "9f13a8e73c1d8d81",
+        "id": "13ebf53264b59d21",
         "type": "tabs",
         "children": [
           {
-            "id": "e19287a02cee9de2",
+            "id": "74a01cd88d6dbbfb",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -103,11 +103,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "バックリンク"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "aeff4908f72cd47c",
+            "id": "c3b7f04d13aa6f5b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -116,11 +116,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "アウトゴーイングリンク"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "16101c55a5ee36a6",
+            "id": "806af0c6f5502cb4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,25 +131,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "タグ"
+              "title": "Tags"
             }
           },
           {
-            "id": "96f194b541793388",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "すべてのプロパティ"
-            }
-          },
-          {
-            "id": "7bea4ef1d063c1ea",
+            "id": "dda137a4f4bcc527",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -159,7 +145,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "Outline"
             }
           }
         ]
@@ -171,38 +157,51 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:クイックスイッチャーを開く": false,
-      "graph:グラフビューを開く": false,
-      "canvas:新規キャンバスを作成": false,
-      "daily-notes:今日のデイリーノートを開く": false,
-      "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "30c1ca28a3969abc",
+  "active": "4ce401aea9fd021f",
   "lastOpenFiles": [
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/260111_メモリ構造決まってきた(7).md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/260111_メモリ構造決まってきた(6).md",
-    "MyFeedbacks/Resources/Audios/result4.png",
-    "MyFeedbacks/Resources/Audios/result3.png",
-    "MyFeedbacks/Resources/Audios/result2.png",
-    "MyFeedbacks/Resources/Audios/result1.png",
-    "MyFeedbacks/Resources/Audios/buffer_ram.jpg",
-    "MyFeedbacks/Resources/Audios/buffer.jpg",
-    "MyFeedbacks/Resources/Audios/gbmc_paperin.png",
-    "MyFeedbacks/Resources/Audios/gbmc_map.png",
-    "250111.md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/260111_メモリ構造決まってきた.md",
-    "250111(9).md",
-    "250111(10).md",
-    "250111(1).md",
-    "250111(4).md",
-    "250111(3).md",
-    "250111(2).md",
-    "250111(8).md",
-    "250111(7).md",
-    "250111(6).md",
-    "250111(5).md"
+    "Student_Age/College_Age/2ndGrade/230922_文脈と意識について.md",
+    "Student_Age/College_Age/2ndGrade/240118_何が嫌いか.md",
+    "Student_Age/College_Age/2ndGrade/231124_意識と虚と実.md",
+    "Student_Age/College_Age/2ndGrade/231128_スタイル.md",
+    "Student_Age/College_Age/2ndGrade/230423_勉強と音楽.md",
+    "Student_Age/College_Age/4thGrade/__pycache__/concept_base.cpython-312.pyc",
+    "Student_Age/College_Age/2ndGrade/231204_興味の持ち方 Ver1.2.md",
+    "Student_Age/College_Age/2ndGrade/231201_人生に関するフローチャート(arduino風に書いた方が書きやすかったんでそうした).md",
+    "Student_Age/College_Age/2ndGrade/230821_男女の差.md",
+    "Student_Age/College_Age/2ndGrade/231110_将来設計.md",
+    "Student_Age/College_Age/2ndGrade/231225_親子とは.md",
+    "Student_Age/College_Age/2ndGrade/231028_『絶対』を使わせる.md",
+    "Student_Age/College_Age/2ndGrade/231021_クローン.md",
+    "Student_Age/Dance_Age/240910_ダンスの劇場モード.md",
+    "Student_Age/College_Age/2ndGrade/230713_将来やりたいこと.md",
+    "Student_Age/College_Age/2ndGrade/230912_SNS.md",
+    "Student_Age/College_Age/2ndGrade/231025_意識と無意識、そして客観についての全体的な考察.md",
+    "Student_Age/College_Age/2ndGrade/230517_老人と電子機器.md",
+    "Student_Age/College_Age/2ndGrade/230902_睡眠について.md",
+    "Student_Age/College_Age/2ndGrade/230830_意識と無意識.md",
+    "Student_Age/College_Age/2ndGrade/231018_鬱.md",
+    "Student_Age/College_Age/2ndGrade/231221_本当に価値があるもの.md",
+    "Student_Age/College_Age/2ndGrade/231012_頼りがいと人生設計.md",
+    "Student_Age/College_Age/2ndGrade/230829_孤独感について.md",
+    "Student_Age/College_Age/2ndGrade/240109_虹と色について.md",
+    "Student_Age/College_Age/2ndGrade/231227_DiSC分析についての原稿.md",
+    "Student_Age/College_Age/2ndGrade/231218_『自分のやり方』の発見.md",
+    "Student_Age/College_Age/Research/Tempo/ReserachEndpoint/研究の一旦の終着点「責任関連」.pdf",
+    "Student_Age/College_Age/Research/Tempo/ReserachEndpoint/研究の一旦の終着点「構成要素」.pdf",
+    "Student_Age/College_Age/Research/Tempo/ReserachEndpoint/研究の一旦の終着地点「終点」.pdf",
+    "Student_Age/College_Age/Research/Tempo/ReserachEndpoint/研究の一旦の終着地点「バロメータ」.pdf",
+    "Student_Age/College_Age/Research/Tempo/ReserachEndpoint/研究の一旦の終着地点「今後」.pdf",
+    "Student_Age/College_Age/Research/Tempo/ReserachEndpoint/研究の一旦の終着地点「ココロ」.pdf",
+    "Student_Age/College_Age/Research/Tempo/ReserachEndpoint/研究の一旦の終着地点「AI」.pdf",
+    "Student_Age/College_Age/Research/Tempo/ReserachEndpoint",
+    "Student_Age/College_Age/Research/Tempo/Left&Right/緩急.pdf"
   ]
 }

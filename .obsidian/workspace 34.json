@@ -1,41 +1,70 @@
 {
   "main": {
-    "id": "f0f0075b72314c14",
+    "id": "793898f03ad97365",
     "type": "split",
     "children": [
       {
-        "id": "17004a224225a66f",
+        "id": "ee05342af676360f",
         "type": "tabs",
         "children": [
           {
-            "id": "7ce7c891a243ce24",
+            "id": "606d13f92aa7b954",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyFeedbacks/Student_Age/College_Age/4thGrade/260112_フィードバックってネイピア数らしい。.md",
+                "file": "Student_Age/College_Age/4thGrade/250713_ソロどーしよかね.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260112_フィードバックってネイピア数らしい。"
+              "title": "250713_ソロどーしよかね"
+            }
+          },
+          {
+            "id": "1c17d4daf2cdd6a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Student_Age/College_Age/4thGrade/250712_理論完成したねん.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "250712_理論完成したねん"
+            }
+          },
+          {
+            "id": "a97c8bb36daf421c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Student_Age/College_Age/4thGrade/250714.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "250714"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "78e17f5b2301e661",
+    "id": "91464cf038053820",
     "type": "split",
     "children": [
       {
-        "id": "9a17f4aec4eb6463",
+        "id": "efceefcbcf6ce8d3",
         "type": "tabs",
         "children": [
           {
-            "id": "3e49fd81cfc752ee",
+            "id": "c0d254d4af56dac4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,11 +73,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "ファイルエクスプローラ"
+              "title": "Files"
             }
           },
           {
-            "id": "6cd1245826fcd35c",
+            "id": "275b6f06afb3b397",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,17 +90,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "検索"
+              "title": "Search"
             }
           },
           {
-            "id": "2dad5cfae5c31c58",
+            "id": "a223bc4a1ada1393",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "ブックマーク"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,20 +110,19 @@
     "width": 300
   },
   "right": {
-    "id": "bc41e171e9dd4148",
+    "id": "6a87b28b27075c55",
     "type": "split",
     "children": [
       {
-        "id": "731eaf4470605635",
+        "id": "4a880ab202dfcd6f",
         "type": "tabs",
         "children": [
           {
-            "id": "f77f30a0ff9bdaf1",
+            "id": "87238f7f52976fbf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "260114.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +132,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "260114へのバックリンク"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "cdbb779434a329bc",
+            "id": "8e771a4c0c653541",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "260114.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "260114からのアウトゴーイングリンク"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "c80c536fb9e8fa55",
+            "id": "0ca87c917a1eab79",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,36 +160,21 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "タグ"
+              "title": "Tags"
             }
           },
           {
-            "id": "26a2ecc9bf3e210e",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "すべてのプロパティ"
-            }
-          },
-          {
-            "id": "e4db7b8491d12ff1",
+            "id": "c96dbe693ba3245c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "260114.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "260114のアウトライン"
+              "title": "Outline"
             }
           }
         ]
@@ -174,39 +186,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:クイックスイッチャーを開く": false,
-      "graph:グラフビューを開く": false,
-      "canvas:新規キャンバスを作成": false,
-      "daily-notes:今日のデイリーノートを開く": false,
-      "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "7ce7c891a243ce24",
+  "active": "a97c8bb36daf421c",
   "lastOpenFiles": [
-    "260114.md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/260112_フィードバックってネイピア数らしい。.md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/260113_ちょい上手く行かんのやが.md",
-    "260114(1).md",
-    "260114(3).md",
-    "260114(4).md",
-    "260114(2).md",
-    "260114(6).md",
-    "260113 2.md",
-    "260113 2(17).md",
-    "260113 2(16).md",
-    "260113 2(15).md",
-    "260113 2(14).md",
-    "260113 2(13).md",
-    "260113 2(12).md",
-    "260113 2(11).md",
-    "260113 2(9).md",
-    "260113 2(8).md",
-    "260113 2(6).md",
-    "260113 2(5).md",
-    "260113 2(4).md",
-    "260113 2(2).md",
-    "260113 2(1).md"
+    "Student_Age/College_Age/4thGrade/250713_ソロどーしよかね.md",
+    "Student_Age/College_Age/4thGrade/250712_理論完成したねん.md",
+    "Student_Age/College_Age/4thGrade/250714.md"
   ]
 }

@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "2344e8cfe7d320b0",
+    "id": "793898f03ad97365",
     "type": "split",
     "children": [
       {
-        "id": "537cbe7a55b3d557",
+        "id": "ee05342af676360f",
         "type": "tabs",
         "children": [
           {
-            "id": "704ab072d158e4c0",
+            "id": "75aa2709a3752473",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "260116.md",
+                "file": "Student_Age/College_Age/4thGrade/250716.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260116"
+              "title": "250716"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "05e84e2c5b076cfd",
+    "id": "91464cf038053820",
     "type": "split",
     "children": [
       {
-        "id": "2fc407eb6d2cd4a7",
+        "id": "efceefcbcf6ce8d3",
         "type": "tabs",
         "children": [
           {
-            "id": "d29f2839d68fcf1d",
+            "id": "c0d254d4af56dac4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,16 +44,16 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "ファイルエクスプローラ"
+              "title": "Files"
             }
           },
           {
-            "id": "9197e2389cbc7084",
+            "id": "275b6f06afb3b397",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#語学/英語",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "検索"
+              "title": "Search"
             }
           },
           {
-            "id": "26717f769a0fef08",
+            "id": "a223bc4a1ada1393",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "ブックマーク"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "bf65cb662ef147d6",
+    "id": "6a87b28b27075c55",
     "type": "split",
     "children": [
       {
-        "id": "39d68c48c742436c",
+        "id": "4a880ab202dfcd6f",
         "type": "tabs",
         "children": [
           {
-            "id": "21fc36da3c8031e3",
+            "id": "87238f7f52976fbf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "260115.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "260115へのバックリンク"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "f84b7ce3dc1b99b4",
+            "id": "8e771a4c0c653541",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "260115.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "260115からのアウトゴーイングリンク"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "223c4c4b7d4a378d",
+            "id": "0ca87c917a1eab79",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,36 +131,21 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "タグ"
+              "title": "Tags"
             }
           },
           {
-            "id": "4b72054529f5d592",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "すべてのプロパティ"
-            }
-          },
-          {
-            "id": "a612fdba29c179c8",
+            "id": "c96dbe693ba3245c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "260115.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "260115のアウトライン"
+              "title": "Outline"
             }
           }
         ]
@@ -174,34 +157,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:クイックスイッチャーを開く": false,
-      "graph:グラフビューを開く": false,
-      "canvas:新規キャンバスを作成": false,
-      "daily-notes:今日のデイリーノートを開く": false,
-      "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "704ab072d158e4c0",
+  "active": "75aa2709a3752473",
   "lastOpenFiles": [
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/260115_とりあえずこれでいくわぃ.md",
-    "260116.md",
-    "260115(2).md",
-    "260115(1).md",
-    "260115(6).md",
-    "260115(5).md",
-    "260115(4).md",
-    "260115(3).md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/251231_2025年もこれで終わりやぁ.md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/260108_一旦終わらせるっ。.md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/260103_引用論文増築中.md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/260101_あけおめことよろ.md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/251214_定義まとめ終わったンゴ.md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/250926_学校始まったー頑張らな.....。.md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/250929_「整える」と「崩す」.md",
-    "MyFeedbacks/Student_Age/College_Age/4thGrade/251020_課題に追われてたんだっつーの….md",
-    "MyFeedbacks/Resources/Audios/gbmc_paper_map2.png",
-    "MyFeedbacks/Resources/Audios/gbmc_map2.png"
+    "Student_Age/College_Age/4thGrade/250715_不安が分かった今日この頃.md",
+    "Student_Age/College_Age/4thGrade/ダンスによる差.png",
+    "Student_Age/College_Age/4thGrade/振付即興.png",
+    "Student_Age/College_Age/4thGrade/250714.md",
+    "Student_Age/College_Age/Research/Flow/その6_3本の目標と我が歴史について.pdf",
+    "Student_Age/College_Age/Research/Flow/その9_感情ってめっちゃ相対性理論.pdf",
+    "Student_Age/College_Age/Research/Flow/その10_ダンスに繋げたろ.pdf",
+    "Student_Age/College_Age/3rdGrade/240924_選択肢を減らすほど可能性が上がる.md",
+    "Student_Age/College_Age/3rdGrade/240906_興味と責任.md",
+    "Student_Age/College_Age/3rdGrade/240815_UPの振付師へ.md",
+    "Student_Age/College_Age/3rdGrade/240710_自由人のノリ.md",
+    "Student_Age/College_Age/4thGrade/250713_ソロどーしよかなぁ.md",
+    "Student_Age/College_Age/4thGrade/250712_理論完成したねん.md",
+    "Student_Age/College_Age/4thGrade/250709_予稿前&発表前最後.md",
+    "Student_Age/College_Age/4thGrade/250708_七夕終わってた.md",
+    "Student_Age/College_Age/4thGrade/250707_重心の位置について.md",
+    "Student_Age/College_Age/4thGrade/250706_マイナスはリスクでしかない.md",
+    "Student_Age/College_Age/4thGrade/250705_予言の日.md",
+    "Student_Age/College_Age/4thGrade/250704_明日不安です.md",
+    "Student_Age/College_Age/4thGrade/250703_来週への草案.md",
+    "Student_Age/College_Age/4thGrade/250702_色んなガチ悩み.md",
+    "Student_Age/College_Age/4thGrade/250711_一旦終わらせた日.md",
+    "Student_Age/College_Age/4thGrade/250710_修正できそうね、色々。.md",
+    "Student_Age/College_Age/4thGrade/サッカー.png",
+    "Student_Age/College_Age/4thGrade/全体構造.png"
   ]
 }
