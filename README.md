@@ -1,4 +1,4 @@
-# KQI/Kansei Quantum Information Theory
+# Rough-And-Ready Thinking-Feedback
 
 これは私Kosaki-1AE自身のフィードバックです。普段はObsidianというアプリで入力しております。
 
