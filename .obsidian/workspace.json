@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "7e0f27a75bd823fb",
+    "id": "c5face2a5882d912",
     "type": "split",
     "children": [
       {
-        "id": "738245063a65a266",
+        "id": "10d3a245105cdb06",
         "type": "tabs",
         "children": [
           {
-            "id": "9f5115fbbc10c46e",
+            "id": "136292e74f317124",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a13b61cbefaf3170",
+    "id": "169292fddcbddcb2",
     "type": "split",
     "children": [
       {
-        "id": "f0db0c66e8c3c7d0",
+        "id": "2f43bfe323ca8d8e",
         "type": "tabs",
         "children": [
           {
-            "id": "a35209f35e46d291",
+            "id": "e88ddd252be7110a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "a6ab4b32eaddc399",
+            "id": "c839fddaf7c1378c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +67,7 @@
             }
           },
           {
-            "id": "7842756df0d81d7f",
+            "id": "68367f2c693a3ef3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -83,19 +83,20 @@
     "width": 300
   },
   "right": {
-    "id": "db4869a4c2425be4",
+    "id": "058c143c81adb2c2",
     "type": "split",
     "children": [
       {
-        "id": "efb1adaccdd0348c",
+        "id": "f4ef0994ee202f5e",
         "type": "tabs",
         "children": [
           {
-            "id": "b588d07fc7ce039b",
+            "id": "87d4deaf96b0877c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "okf/vault/KQI/260730.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,24 +106,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "バックリンク"
+              "title": "260730へのバックリンク"
             }
           },
           {
-            "id": "a8151e7755712d85",
+            "id": "fa311fce05022532",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "okf/vault/KQI/260730.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "アウトゴーイングリンク"
+              "title": "260730からのアウトゴーイングリンク"
             }
           },
           {
-            "id": "c2071d8746e02cd2",
+            "id": "e0b690cd3cef28c9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +139,7 @@
             }
           },
           {
-            "id": "eb78988a34d674fa",
+            "id": "11a3290541363b6c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,20 +153,22 @@
             }
           },
           {
-            "id": "c06862d5b47cb052",
+            "id": "78afc8bae3026b2d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "okf/vault/KQI/260730.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "260730のアウトライン"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -173,62 +177,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:新規ベースを作成": false,
+      "markdown-importer:Markdownインポーターを開く": false,
+      "audio-recorder:録音の開始/停止": false,
+      "publish:パブリッシュによる変更の公開…": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false
+      "command-palette:コマンドパレットを開く": false,
+      "bases:新規ベースを作成": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a35209f35e46d291",
+  "active": "e88ddd252be7110a",
   "lastOpenFiles": [
-    "MyFeedbacks/Today/260918.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260917_Pythonへの実装開始ぃぃぃ.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260915-16_一旦Pythonに落としてみた。.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260914_prgrms_v最新で俺の遷移を作ったれぇいwww.md",
-    "README.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/prgrms_v3.0.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/prgrms_v2.2.md",
-    "260916.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260911_自由度を制限するって何？？w.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260912_理論まとまってきたすわ.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260913_mbti組み合わせたのってどうなんや？ww.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260913_mbti組み合わせたのってどうなんや？ww 2.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/prgrms_v2.0.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/prgrms_v2.1.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/prgrms_v2.2 2.md",
-    "MyFeedbacks/Today/290914 2.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260706_SSDやらHDDやらSDやら.....md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260626_回路、その2.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260715_課題まだ残ってるんつらたん.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260719_色々初体験.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260722_数学色々.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260723_OKFッッッッ.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260730_自由度と制限の曲率.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260726_風見だけでミスなんてあるんやなぁ…。.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260724_OKFへの欲求仕様.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260721_どうも決まってきたっぽいぞ？.md",
-    "MyFeedbacks/tools/connect_okf.py",
-    "MyFeedbacks/tools",
-    "MyFeedbacks/Today",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/酒と空気感.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/長生きのための条件.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/軸と運の選択.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢へのヒントの書き込み.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢の公式.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢と数学.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任-完結.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/覚悟をこう定義した.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/虚と実.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/自我を持つためには.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/老人を敬うべきな理由.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/絶望.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/結婚適齢期.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/精神年齢の確定.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/結婚前提と遊びと未練.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/疑うことを恥と思わないようにするには.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/精神年齢の確定2.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/空気感についてのまとめ.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/男尊女卑.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/男女の差.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/男女別の武器の差.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/甘えさせられる環境とは.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/男女の独立と依存の差の公式.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/独立型と依存型について言いたいことその2.md",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/独立型と依存型について言いたいことその1.md",
     "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow",
     "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ReserachEndpoint",
     "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/Left&Right",
     "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/Frequency",
     "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/実装/Dance",
     "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Weight",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Inertia",
     "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo",
-    "MyFeedbacks/Resources/Audios/gbmc_paper_in2.png",
-    "MyFeedbacks/Resources/Audios/gbmc_map_genesis.png",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Programs/Colab/sim_colabver(1).ipynb",
+    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Flow",
     "MyFeedbacks/Resources/Audios/gbmc_map 6.png",
     "MyFeedbacks/Resources/Audios/gbmc_map 5.png",
+    "MyFeedbacks/Resources/Audios/gbmc_paper_in2.png",
+    "MyFeedbacks/Resources/Audios/gbmc_map_genesis.png",
     "MyFeedbacks/Resources/Audios/gbmc_map 4.png",
     "MyFeedbacks/Resources/Audios/gbmc_map 3.png",
+    "MyFeedbacks/Resources/Audios/Epoch_503.png",
     "MyFeedbacks/Resources/Audios/gbmc_map 2.png",
     "MyFeedbacks/Resources/Audios/gbmc_flactal3.png",
     "MyFeedbacks/Resources/Audios/gbmc_circuit.png",
-    "MyFeedbacks/Resources/Audios/circuit_calresult.png"
+    "無題のファイル.canvas"
   ]
 }
