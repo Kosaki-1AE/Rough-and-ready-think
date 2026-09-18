@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "299dd4b5875f360c",
+            "id": "9f5115fbbc10c46e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyFeedbacks/Today/260917.md",
+                "file": "MyFeedbacks/Today/260918.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260917"
+              "title": "260918"
             }
           }
         ]
@@ -182,10 +182,11 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "299dd4b5875f360c",
+  "active": "a35209f35e46d291",
   "lastOpenFiles": [
+    "MyFeedbacks/Today/260918.md",
+    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260917_Pythonへの実装開始ぃぃぃ.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260915-16_一旦Pythonに落としてみた。.md",
-    "MyFeedbacks/Today/260917.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260914_prgrms_v最新で俺の遷移を作ったれぇいwww.md",
     "README.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/prgrms_v3.0.md",
@@ -209,7 +210,6 @@
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260726_風見だけでミスなんてあるんやなぁ…。.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260724_OKFへの欲求仕様.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260721_どうも決まってきたっぽいぞ？.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260720_スペイン戦良かったなぁ。.md",
     "MyFeedbacks/tools/connect_okf.py",
     "MyFeedbacks/tools",
     "MyFeedbacks/Today",
