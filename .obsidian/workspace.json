@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "c5face2a5882d912",
+    "id": "d3a101574db58b0f",
     "type": "split",
     "children": [
       {
-        "id": "10d3a245105cdb06",
+        "id": "01c30e5e438f305b",
         "type": "tabs",
         "children": [
           {
-            "id": "136292e74f317124",
+            "id": "5fce47f252c1a96c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "169292fddcbddcb2",
+    "id": "38951aa72e4d26ff",
     "type": "split",
     "children": [
       {
-        "id": "2f43bfe323ca8d8e",
+        "id": "fb767ddfc8106003",
         "type": "tabs",
         "children": [
           {
-            "id": "e88ddd252be7110a",
+            "id": "181e115b5452a7e1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "c839fddaf7c1378c",
+            "id": "e65df1b6853bdf90",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,11 +67,14 @@
             }
           },
           {
-            "id": "68367f2c693a3ef3",
+            "id": "252a742db814c986",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "ブックマーク"
             }
@@ -83,20 +86,20 @@
     "width": 300
   },
   "right": {
-    "id": "058c143c81adb2c2",
+    "id": "8ae15d16b4655849",
     "type": "split",
     "children": [
       {
-        "id": "f4ef0994ee202f5e",
+        "id": "928bc6f802ea91bc",
         "type": "tabs",
         "children": [
           {
-            "id": "87d4deaf96b0877c",
+            "id": "9827912c5ba0f968",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "okf/vault/KQI/260730.md",
+                "file": "MyFeedbacks/Today/260918.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,25 +109,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "260730へのバックリンク"
+              "title": "バックリンク"
             }
           },
           {
-            "id": "fa311fce05022532",
+            "id": "ef982d4ef406139e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "okf/vault/KQI/260730.md",
+                "file": "MyFeedbacks/Today/260918.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "260730からのアウトゴーイングリンク"
+              "title": "アウトゴーイングリンク"
             }
           },
           {
-            "id": "e0b690cd3cef28c9",
+            "id": "18c9359a07e97066",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -139,7 +142,7 @@
             }
           },
           {
-            "id": "11a3290541363b6c",
+            "id": "3e314ec75824a1c2",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -153,22 +156,21 @@
             }
           },
           {
-            "id": "78afc8bae3026b2d",
+            "id": "566166aed8444482",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "okf/vault/KQI/260730.md",
+                "file": "MyFeedbacks/Today/260918.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "260730のアウトライン"
+              "title": "アウトライン"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,54 +188,6 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "136292e74f317124",
-  "lastOpenFiles": [
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260915-16_一旦Pythonに落としてみた。.md",
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260917_Pythonへの実装開始ぃぃぃ.md",
-    "MyFeedbacks/Today/260918.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/酒と空気感.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/長生きのための条件.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/軸と運の選択.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢へのヒントの書き込み.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢の公式.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢と数学.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任の矢.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/責任-完結.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/覚悟をこう定義した.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/虚と実.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/自我を持つためには.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/老人を敬うべきな理由.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/絶望.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/結婚適齢期.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/精神年齢の確定.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/結婚前提と遊びと未練.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/疑うことを恥と思わないようにするには.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/精神年齢の確定2.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/空気感についてのまとめ.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/男尊女卑.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/男女の差.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/男女別の武器の差.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow/甘えさせられる環境とは.md",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/ReserachEndpoint",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/Left&Right",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo/Frequency",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/実装/Dance",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Weight",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Inertia",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Tempo",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Programs/Colab/sim_colabver(1).ipynb",
-    "MyFeedbacks/StudentAge/2.CollegeAge/4thGrade/Research/まとめ/Flow",
-    "MyFeedbacks/Resources/Audios/gbmc_map 6.png",
-    "MyFeedbacks/Resources/Audios/gbmc_map 5.png",
-    "MyFeedbacks/Resources/Audios/gbmc_paper_in2.png",
-    "MyFeedbacks/Resources/Audios/gbmc_map_genesis.png",
-    "MyFeedbacks/Resources/Audios/gbmc_map 4.png",
-    "MyFeedbacks/Resources/Audios/gbmc_map 3.png",
-    "MyFeedbacks/Resources/Audios/Epoch_503.png",
-    "MyFeedbacks/Resources/Audios/gbmc_map 2.png",
-    "MyFeedbacks/Resources/Audios/gbmc_flactal3.png",
-    "MyFeedbacks/Resources/Audios/gbmc_circuit.png",
-    "無題のファイル.canvas"
-  ]
+  "active": "5fce47f252c1a96c",
+  "lastOpenFiles": []
 }
