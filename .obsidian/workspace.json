@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyFeedbacks/Today/260918.md",
+                "file": "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260919_データがクソ多いかもしれんすまん.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260918"
+              "title": "260919_データがクソ多いかもしれんすまん"
             }
           }
         ]
@@ -188,6 +188,6 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "5fce47f252c1a96c",
+  "active": "181e115b5452a7e1",
   "lastOpenFiles": []
 }
