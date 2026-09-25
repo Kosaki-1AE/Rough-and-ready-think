@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "60eb9060303303ad",
+        "id": "a72bc3b11518598b",
         "type": "tabs",
         "children": [
           {
-            "id": "c8d0cc6199282dc3",
+            "id": "3a01c79b6302c18c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,10 +188,18 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "c8d0cc6199282dc3",
+  "active": "3a01c79b6302c18c",
   "lastOpenFiles": [
-    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260924_こんなもんじゃない？.md",
+    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260925_GBMCCQSD_v1.0-R_決定事項.md",
     "MyFeedbacks/Today/260925.md",
+    "MyFeedbacks/Resources/Audios/GBMCCQSD_job_hunting_brief.pdf",
+    "MyFeedbacks/Resources/Audios/GBMCCQSD_v1R_final_preprint.pdf",
+    "MyFeedbacks/Resources/Audios/GBMCCQSD_finalization_audit_preprint.pdf",
+    "MyFeedbacks/Resources/Audios/GBMCCQSD_repository_historical_audit_preprint.pdf",
+    "MyFeedbacks/Resources/Audios/GBMCCQSD_four_skeleton_same_data_preprint.pdf",
+    "MyFeedbacks/Resources/Audios/GBMCCQSD_equation_class_preprint.pdf",
+    "MyFeedbacks/Resources/Audios/GBMCCQSD_generalized_skeletons_preprint.pdf",
+    "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260924_こんなもんじゃない？.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260923_なんか進まんなぁぁぁぁ.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260922_一旦ナビエっぽいのを作ったわ、うん.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260909_仕組み的にできるものが確定してきた(学会はまだです、はい。).md",
