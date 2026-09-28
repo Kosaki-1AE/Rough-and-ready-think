@@ -8,11 +8,11 @@ from pathlib import Path
 LANGUAGES = {
     "python": {
         "suffix": ".py",
-        "run": lambda file: sys.executable,
+        "run": lambda file: [sys.executable, file],
     },
     "py": {
         "suffix": ".py",
-        "run": lambda file: sys.executable,
+        "run": lambda file: [sys.executable, file],
     },
     "c": {
         "suffix": ".c",
