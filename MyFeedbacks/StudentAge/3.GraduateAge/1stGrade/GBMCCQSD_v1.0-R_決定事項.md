@@ -607,3 +607,10 @@ Invariant:
 
 Transition:
 Explore -> Hold -> Q -> Commit -> Observe -> Keep / Rollback
+
+対象とするファイル:
+- python
+- C
+- C++
+- JavaScript
+- 

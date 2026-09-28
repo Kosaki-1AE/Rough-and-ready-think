@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyFeedbacks/Today/260928.md",
+                "file": "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/GBMCCQSD_v1.0-R_決定事項.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260928"
+              "title": "GBMCCQSD_v1.0-R_決定事項"
             }
           }
         ]
@@ -188,8 +188,9 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "181e115b5452a7e1",
+  "active": "5d1aa4c6ac7c9d3d",
   "lastOpenFiles": [
+    "MyFeedbacks/Today/260928.md",
     "MyFeedbacks/tools/check_env.py",
     "MyFeedbacks/tools/ast.py",
     "MyFeedbacks/ast.py",
@@ -198,7 +199,6 @@
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260818_CCI2日目ェ.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260702_エグい論文めっけたかも。.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260703_割と俺の向き不向きが分かったぞいbyTCS.md",
-    "MyFeedbacks/Today/260928.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260926_人間関係キャッチボール.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260918_一旦プログラムできたわ.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260919_データがクソ多いかもしれんすまん.md",
@@ -217,7 +217,6 @@
     "MyFeedbacks/Resources/Audios/GBMCCQSD_finalization_audit_preprint.pdf",
     "MyFeedbacks/Resources/Audios/GBMCCQSD_repository_historical_audit_preprint.pdf",
     "MyFeedbacks/Resources/Audios/GBMCCQSD_four_skeleton_same_data_preprint.pdf",
-    "MyFeedbacks/Resources/Audios/GBMCCQSD_equation_class_preprint.pdf",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260909_仕組み的にできるものが確定してきた(学会はまだです、はい。).md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/260912_理論まとまってきたすわ.md",
     "MyFeedbacks/StudentAge/3.GraduateAge/1stGrade/prgrms_v3.1.md",
