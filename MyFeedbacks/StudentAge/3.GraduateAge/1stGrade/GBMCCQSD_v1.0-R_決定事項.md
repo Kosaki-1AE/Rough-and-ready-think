@@ -599,5 +599,11 @@ Rule:
 - 予測を次状態の初期条件にしてはいけない
 - 明示的な責任付与前にCommitしてはいけない
 
+Exit condition:
+- 明示的な責任付与 Q が発生したとき
+
+Invariant:
+- Hold中は候補集合の輪郭だけ保持し、候補間の選好を生成しない
+
 Transition:
-Explore -> Hold -> Commit -> Observe -> Keep / Rollback
+Explore -> Hold -> Q -> Commit -> Observe -> Keep / Rollback
