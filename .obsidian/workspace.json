@@ -11,10 +11,14 @@
             "id": "4d03744f10a19a3a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "feedbacks/today/260930.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "260930"
             }
           }
         ]
@@ -186,8 +190,28 @@
   },
   "active": "4d03744f10a19a3a",
   "lastOpenFiles": [
+    "feedbacks/resources/audios/構築までの流れ.md",
+    "feedbacks/resources/audios/gbmc_paper_in2.png",
+    "feedbacks/resources/audios/gbmc_map 2.png",
+    "feedbacks/resources/audios/gbmc_map_genesis.png",
+    "feedbacks/resources/audios/gbmc_map 6.png",
+    "feedbacks/resources/audios/gbmc_map 5.png",
+    "feedbacks/resources/audios/gbmc_map 3.png",
+    "feedbacks/resources/audios/gbmc_circuit.png",
+    "feedbacks/resources/audios/gbmc_map 4.png",
+    "feedbacks/resources/audios/gbmc_flactal3.png",
+    "feedbacks/resources/audios/GBMCCQSD_v1R_final_preprint.pdf",
+    "feedbacks/resources/audios/GBMCCQSD_repository_historical_audit_preprint.pdf",
+    "feedbacks/resources/audios/GBMCCQSD_job_hunting_brief.pdf",
+    "feedbacks/resources/audios/GBMCCQSD_generalized_skeletons_preprint.pdf",
+    "feedbacks/resources/audios/GBMCCQSD_equation_class_preprint.pdf",
+    "feedbacks/resources/audios/GBMCCQSD_four_skeleton_same_data_preprint.pdf",
+    "feedbacks/resources/audios/GBMCCQSD_finalization_audit_preprint.pdf",
+    "feedbacks/resources/audios/GBMCCQSD_cross_domain_preprint.pdf",
+    "feedbacks/resources/audios/Figure1_editable_draft.pdf",
+    "feedbacks/resources/audios/Epoch_504.png",
+    "feedbacks/resources/audios",
     "feedbacks/today/260930.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/python/gbmccqsd_capture_v0_8_reviewed.py~",
     "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/Pokemon/技集(基本出てきた順).md",
     "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/Original/技集(基本出てきた順).md",
     "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/Original/フォーム集.md",
@@ -195,15 +219,6 @@
     "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/Naruto/技集(基本出てきた順).md",
     "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/DB/技集(基本出てきた順).md",
     "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/HarryPotter/技集(出てきた順).md",
-    "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/Pokemon",
-    "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/Original",
-    "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/OnePiece",
-    "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/Naruto",
-    "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/HarryPotter",
-    "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho/DB",
-    "feedbacks/studentAge/0.juniorHighschoolAge/Secret Manual_Hidensho",
-    "feedbacks/studentAge/0.juniorHighschoolAge",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/python/pose_landmarker_full.task",
     "feedbacks/studentAge/3.graduateAge/1stGrade/要求仕様.md",
     "feedbacks/studentAge/3.graduateAge/1stGrade/俺流玉手箱対策.md",
     "feedbacks/studentAge/3.graduateAge/1stGrade/就活系のサイト(今後使うんかもな。).md",
@@ -220,17 +235,6 @@
     "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v2.1.md",
     "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v2.0.md",
     "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v0.3.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v0.2.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/260918_一旦プログラムできたわ.md",
-    "feedbacks/resources/Audios/gbmc_map 5.png",
-    "feedbacks/resources/Audios/gbmc_paper_in2.png",
-    "feedbacks/resources/Audios/gbmc_map_genesis.png",
-    "feedbacks/resources/Audios/gbmc_map 6.png",
-    "feedbacks/resources/Audios/gbmc_map 4.png",
-    "feedbacks/resources/Audios/gbmc_map 3.png",
-    "feedbacks/resources/Audios/gbmc_map 2.png",
-    "feedbacks/resources/Audios/gbmc_flactal3.png",
-    "feedbacks/resources/Audios/gbmc_circuit.png",
-    "feedbacks/resources/Audios/Epoch_504.png"
+    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v0.2.md"
   ]
 }

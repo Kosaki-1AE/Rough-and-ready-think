@@ -1,5 +1,5 @@
 """
-GBMCCQSD Capture v0.8
+GBMCCQSD Capture v0.9
 =====================
 
 全面見直し版。
@@ -51,6 +51,12 @@ MODEL_URL = (
     "pose_landmarker_full.task"
 )
 DEFAULT_MODEL_PATH = Path(__file__).resolve().parent / "pose_landmarker_full.task"
+FACE_MODEL_URL = (
+    "https://storage.googleapis.com/mediapipe-models/"
+    "face_landmarker/face_landmarker/float16/1/"
+    "face_landmarker.task"
+)
+DEFAULT_FACE_MODEL_PATH = Path(__file__).resolve().parent / "face_landmarker.task"
 
 
 # MediaPipe Pose 33 landmarks
@@ -111,7 +117,7 @@ def load_runtime():
 # Model file
 # ============================================================
 
-def ensure_model(model_path: Path) -> Path:
+def ensure_model(model_path: Path, url: str = MODEL_URL, label: str = "Pose Landmarker") -> Path:
     """
     .task は MediaPipe が内部で読むモデルファイル。
     ユーザーが開くものではない。
@@ -133,7 +139,7 @@ def ensure_model(model_path: Path) -> Path:
 
     try:
         model_path.parent.mkdir(parents=True, exist_ok=True)
-        urllib.request.urlretrieve(MODEL_URL, model_path)
+        urllib.request.urlretrieve(url, model_path)
     except Exception as e:
         raise RuntimeError(
             "Pose Landmarkerモデルの取得に失敗しました。\n"
@@ -199,6 +205,10 @@ class State:
     left_elbow_angle: float = 0.0
     right_elbow_angle: float = 0.0
     torso_rotation: float = 0.0
+
+    face_detected: int = 0
+    face_motion: float = 0.0
+    face_update_scope: float = 0.0
 
     binary_state: str = "0000"
     state_id: int = 0
@@ -280,7 +290,9 @@ class GBMObserver:
 
         # Enough for many seconds even at high camera rates.
         self.history: deque[Tuple[float, np.ndarray]] = deque(maxlen=2400)
+        self.face_history: deque[Tuple[float, np.ndarray]] = deque(maxlen=2400)
         self.prev_body_speed: Optional[float] = None
+        self.face_update_threshold = 0.010
 
     def _normalize_pose(self, pose: np.ndarray) -> np.ndarray:
         """
@@ -383,15 +395,65 @@ class GBMObserver:
             dtype=float,
         ) + EPS
 
+    def _normalize_face(self, face: np.ndarray) -> np.ndarray:
+        if face.shape[0] <= 263:
+            return face
+        left_eye = face[33]
+        right_eye = face[263]
+        center = (left_eye + right_eye) / 2.0
+        scale = max(float(np.linalg.norm(right_eye - left_eye)), 1e-6)
+        return (face - center) / scale
+
+    def _face_reference(self, face: np.ndarray, t_sec: float):
+        target = float(t_sec) - self.reference_window_sec
+        if target < 0 or not self.face_history:
+            return None
+        if self.face_history[0][0] > target:
+            return None
+        prev_t = None
+        prev_face = None
+        for hist_t, hist_face in self.face_history:
+            if hist_t <= target:
+                prev_t, prev_face = hist_t, hist_face
+            else:
+                if prev_t is None:
+                    return None
+                span = hist_t - prev_t
+                if span <= EPS:
+                    return prev_face.copy()
+                a = (target - prev_t) / span
+                return prev_face + a * (hist_face - prev_face)
+        if prev_t is not None and prev_face is not None:
+            span = float(t_sec) - prev_t
+            if span <= EPS:
+                return prev_face.copy()
+            a = float(np.clip((target - prev_t) / span, 0.0, 1.0))
+            return prev_face + a * (face - prev_face)
+        return None
+
+    def _face_metrics(self, face: Optional[np.ndarray], t_sec: float):
+        if face is None:
+            return 0, 0.0, 0.0
+        ref = self._face_reference(face, t_sec)
+        if ref is None or ref.shape != face.shape:
+            return 1, 0.0, 0.0
+        cur_n = self._normalize_face(face)
+        ref_n = self._normalize_face(ref)
+        d = np.linalg.norm(cur_n - ref_n, axis=1)
+        return 1, float(np.mean(d)), float(np.mean(d >= self.face_update_threshold))
+
     def step(
         self,
         pose: np.ndarray,
+        face: Optional[np.ndarray] = None,
         *,
         frame: int,
         t_sec: float,
     ) -> State:
         if pose.shape != (33, 3):
             raise ValueError(f"Pose shape must be (33,3), got {pose.shape}")
+
+        face_detected, face_motion, face_update_scope = self._face_metrics(face, t_sec)
 
         ref_t, ref_pose = self._reference_pose(pose, t_sec)
         ready = ref_pose is not None and ref_t is not None
@@ -408,6 +470,9 @@ class GBMObserver:
                 update_scope=0.0,
                 drag=0.0,
                 selection_speed=0.0,
+                face_detected=face_detected,
+                face_motion=face_motion,
+                face_update_scope=face_update_scope,
             )
         else:
             current_norm = self._normalize_pose(pose)
@@ -471,6 +536,9 @@ class GBMObserver:
                 drag=drag,
                 selection_speed=selection_speed,
                 body_speed=body_speed,
+                face_detected=face_detected,
+                face_motion=face_motion,
+                face_update_scope=face_update_scope,
             )
 
             if self.detailed:
@@ -519,6 +587,8 @@ class GBMObserver:
 
         # 最後に現在Poseをtimestamp付きで保存。
         self.history.append((float(t_sec), pose.copy()))
+        if face is not None:
+            self.face_history.append((float(t_sec), face.copy()))
 
         return state
 
@@ -588,6 +658,38 @@ class PoseExtractor:
         self.landmarker.close()
 
 
+class FaceExtractor:
+    def __init__(self, model_path: Path):
+        cv2, mp, mp_python, vision = load_runtime()
+        self.cv2 = cv2
+        self.mp = mp
+        options = vision.FaceLandmarkerOptions(
+            base_options=mp_python.BaseOptions(model_asset_path=str(model_path)),
+            running_mode=vision.RunningMode.VIDEO,
+            num_faces=1,
+            min_face_detection_confidence=0.5,
+            min_face_presence_confidence=0.5,
+            min_tracking_confidence=0.5,
+            output_face_blendshapes=False,
+            output_facial_transformation_matrixes=False,
+        )
+        self.landmarker = vision.FaceLandmarker.create_from_options(options)
+
+    def process(self, frame_bgr: np.ndarray, task_timestamp_ms: int):
+        rgb = self.cv2.cvtColor(frame_bgr, self.cv2.COLOR_BGR2RGB)
+        rgb = np.ascontiguousarray(rgb)
+        mp_image = self.mp.Image(image_format=self.mp.ImageFormat.SRGB, data=rgb)
+        result = self.landmarker.detect_for_video(mp_image, int(task_timestamp_ms))
+        if not result.face_landmarks:
+            return None, None
+        landmarks = result.face_landmarks[0]
+        face = np.array([[lm.x, lm.y, lm.z] for lm in landmarks], dtype=float)
+        return face, landmarks
+
+    def close(self):
+        self.landmarker.close()
+
+
 # ============================================================
 # Drawing / output
 # ============================================================
@@ -624,6 +726,28 @@ def draw_pose(frame, landmarks, cv2):
         )
 
 
+def draw_face(frame, landmarks, cv2):
+    if landmarks is None:
+        return
+    h, w = frame.shape[:2]
+    xy = [(int(lm.x * w), int(lm.y * h)) for lm in landmarks]
+    # Dense but light mesh: connect neighboring indices and key facial structures.
+    key_pairs = [
+        (10,338),(338,297),(297,332),(332,284),(284,251),(251,389),(389,356),(356,454),
+        (454,323),(323,361),(361,288),(288,397),(397,365),(365,379),(379,378),(378,400),
+        (400,377),(377,152),(152,148),(148,176),(176,149),(149,150),(150,136),(136,172),
+        (172,58),(58,132),(132,93),(93,234),(234,127),(127,162),(162,21),(21,54),(54,103),(103,67),(67,109),(109,10),
+        (33,7),(7,163),(163,144),(144,145),(145,153),(153,154),(154,155),(155,133),
+        (263,249),(249,390),(390,373),(373,374),(374,380),(380,381),(381,382),(382,362),
+        (70,63),(63,105),(105,66),(66,107),(336,296),(296,334),(334,293),(293,300),
+        (168,6),(6,197),(197,195),(195,5),(5,4),(4,1),(1,19),(19,94),(94,2),
+        (61,146),(146,91),(91,181),(181,84),(84,17),(17,314),(314,405),(405,321),(321,375),(375,291),
+    ]
+    for a,b in key_pairs:
+        if a < len(xy) and b < len(xy):
+            cv2.line(frame, xy[a], xy[b], (255,255,255), 1, cv2.LINE_AA)
+
+
 def draw_overlay(frame, state: State, cv2):
     if state.reference_ready:
         text = (
@@ -631,7 +755,8 @@ def draw_overlay(frame, state: State, cv2):
             f"N_eff={state.effective_candidates:.2f} "
             f"Omega={state.update_scope:.2f} "
             f"drag={state.drag:.2f} "
-            f"bin={state.binary_state}"
+            f"bin={state.binary_state} "
+            f"face={state.face_motion:.3f}"
         )
     else:
         text = "warming up: collecting 30 ms history"
@@ -665,6 +790,9 @@ def state_to_row(state: State, detailed: bool) -> Dict:
         "update_scope",
         "drag",
         "selection_speed",
+        "face_detected",
+        "face_motion",
+        "face_update_scope",
         "binary_state",
         "state_id",
         "hex_state",
@@ -781,6 +909,7 @@ def run_video(
     output_csv: Path,
     detailed: bool,
     model_path: Path,
+    face_model_path: Path,
 ):
     cv2, _, _, _ = load_runtime()
 
@@ -789,6 +918,7 @@ def run_video(
         raise RuntimeError(f"動画を開けません: {video_path}")
 
     extractor = PoseExtractor(model_path)
+    face_extractor = FaceExtractor(face_model_path)
     observer = GBMObserver(detailed=detailed)
     ts_reader = VideoTimestampReader()
 
@@ -806,16 +936,19 @@ def run_video(
             time_sec, task_ms = ts_reader.read(cap, cv2)
 
             pose, landmarks = extractor.process(frame, task_ms)
+            face, face_landmarks = face_extractor.process(frame, task_ms)
 
             if pose is not None:
                 state = observer.step(
                     pose,
+                    face,
                     frame=frame_i,
                     t_sec=time_sec,
                 )
                 rows.append(state_to_row(state, detailed))
 
                 draw_pose(frame, landmarks, cv2)
+                draw_face(frame, face_landmarks, cv2)
                 draw_overlay(frame, state, cv2)
             else:
                 cv2.putText(
@@ -840,6 +973,7 @@ def run_video(
     finally:
         cap.release()
         extractor.close()
+        face_extractor.close()
         cv2.destroyAllWindows()
 
     save_rows(rows, output_csv)
@@ -867,11 +1001,13 @@ def run_camera(
     camera_index: int,
     output_csv: Path,
     model_path: Path,
+    face_model_path: Path,
 ):
     cv2, _, _, _ = load_runtime()
 
     cap = open_camera(camera_index, cv2)
     extractor = PoseExtractor(model_path)
+    face_extractor = FaceExtractor(face_model_path)
     observer = GBMObserver(detailed=True)
 
     rows: List[Dict] = []
@@ -896,16 +1032,19 @@ def run_camera(
             last_task_ms = task_ms
 
             pose, landmarks = extractor.process(frame, task_ms)
+            face, face_landmarks = face_extractor.process(frame, task_ms)
 
             if pose is not None:
                 state = observer.step(
                     pose,
+                    face,
                     frame=frame_i,
                     t_sec=time_sec,
                 )
                 rows.append(state_to_row(state, detailed=True))
 
                 draw_pose(frame, landmarks, cv2)
+                draw_face(frame, face_landmarks, cv2)
                 draw_overlay(frame, state, cv2)
             else:
                 cv2.putText(
@@ -930,6 +1069,7 @@ def run_camera(
     finally:
         cap.release()
         extractor.close()
+        face_extractor.close()
         cv2.destroyAllWindows()
 
     save_rows(rows, output_csv)
@@ -1049,7 +1189,7 @@ def self_test():
 
 def interactive():
     print("")
-    print("GBMCCQSD Capture v0.8")
+    print("GBMCCQSD Capture v0.9")
     print("=====================")
     print("1: 動画ファイル")
     print("2: カメラ撮影")
@@ -1064,6 +1204,7 @@ def interactive():
 
     if mode == "1":
         model_path = ensure_model(DEFAULT_MODEL_PATH)
+        face_model_path = ensure_model(DEFAULT_FACE_MODEL_PATH, FACE_MODEL_URL, "Face Landmarker")
 
         video = input("動画パス > ").strip().strip('"')
         detailed = ask_video_detail()
@@ -1080,10 +1221,12 @@ def interactive():
             Path(out),
             detailed,
             model_path,
+            face_model_path,
         )
 
     elif mode == "2":
         model_path = ensure_model(DEFAULT_MODEL_PATH)
+        face_model_path = ensure_model(DEFAULT_FACE_MODEL_PATH, FACE_MODEL_URL, "Face Landmarker")
 
         index_text = input("カメラ番号 [0] > ").strip()
         camera_index = int(index_text) if index_text else 0
@@ -1097,6 +1240,7 @@ def interactive():
             camera_index,
             Path(out),
             model_path,
+            face_model_path,
         )
 
     elif mode == "3":
@@ -1118,6 +1262,7 @@ def main():
     parser.add_argument("--camera", type=int)
     parser.add_argument("--optitrack-csv", type=str)
     parser.add_argument("--model", type=str)
+    parser.add_argument("--face-model", type=str)
     parser.add_argument("--output", type=str, default="gbmccqsd_output.csv")
     parser.add_argument("--self-test", action="store_true")
 
@@ -1135,6 +1280,11 @@ def main():
         model_path = ensure_model(
             Path(args.model) if args.model else DEFAULT_MODEL_PATH
         )
+        face_model_path = ensure_model(
+            Path(args.face_model) if args.face_model else DEFAULT_FACE_MODEL_PATH,
+            FACE_MODEL_URL,
+            "Face Landmarker",
+        )
         detailed = (
             ask_video_detail()
             if args.detail is None
@@ -1145,6 +1295,7 @@ def main():
             Path(args.output),
             detailed,
             model_path,
+            face_model_path,
         )
         return
 
@@ -1152,10 +1303,16 @@ def main():
         model_path = ensure_model(
             Path(args.model) if args.model else DEFAULT_MODEL_PATH
         )
+        face_model_path = ensure_model(
+            Path(args.face_model) if args.face_model else DEFAULT_FACE_MODEL_PATH,
+            FACE_MODEL_URL,
+            "Face Landmarker",
+        )
         run_camera(
             args.camera,
             Path(args.output),
             model_path,
+            face_model_path,
         )
         return
 
