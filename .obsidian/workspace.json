@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c06b17f67a7fc07a",
+        "id": "5300e86e7cd7feb0",
         "type": "tabs",
         "children": [
           {
-            "id": "d1c5857cca7464db",
+            "id": "cddaa01f76671afe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "feedbacks/today/260929.md",
+                "file": "feedbacks/today/260930.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "260929"
+              "title": "260930"
             }
           }
         ]
@@ -188,10 +188,22 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "d1c5857cca7464db",
+  "active": "cddaa01f76671afe",
   "lastOpenFiles": [
+    "feedbacks/studentAge/3.graduateAge/1stGrade/GBMCCQSD_v1.0-R_決定事項.md",
+    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v4.1_GBMCCQSD.md",
+    "feedbacks/today/260930.md",
+    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v4.1_GBMCCQSD_observer.md",
+    "feedbacks/studentAge/3.graduateAge/prgrms_v4.1_GBMCCQSD_observer.md",
+    "feedbacks/studentAge/prgrms_v4.1_GBMCCQSD_observer.md",
+    "feedbacks/prgrms_v4.1_GBMCCQSD_observer.md",
+    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v4.0.md",
+    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v3.1.md",
+    "feedbacks/studentAge/3.graduateAge/1stGrade/260929_やっぱりまだ無理ぽ....。.md",
+    "feedbacks/studentAge/3.graduateAge/1stGrade/260925_理論はこんな感じっすね。.md",
+    "feedbacks/studentAge/3.graduateAge/1stGrade/260926_人間関係キャッチボール.md",
+    "feedbacks/studentAge/3.graduateAge/1stGrade/260927_なんか色々できてて草.md",
     "feedbacks/studentAge/3.graduateAge/1stGrade/260928_Pythonでパーセプトロンモデル作ることにしました。.md",
-    "feedbacks/today/260929.md",
     "feedbacks/studentAge/2.collegeAge/3rdGradeSpringVacation/250317_順と逆.md",
     "feedbacks/studentAge/3.graduateAge/1stGrade/260915-16_一旦Pythonに落としてみた。.md",
     "MyFeedbacks/Today/260928.md",
@@ -209,19 +221,7 @@
     "feedbacks/studentAge/3.graduateAge/1stGrade/就活系のサイト(今後使うんかもな。).md",
     "feedbacks/studentAge/3.graduateAge/1stGrade/俺流玉手箱対策.md",
     "feedbacks/studentAge/3.graduateAge/1stGrade/俺流SPI対策.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v3.1.md",
     "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v3.0.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v2.2.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v2.1.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v2.0.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v1.0.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v0.3.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v0.2.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/prgrms_v0.1.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/Stillness in Motion.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/Stillness in Motion 2.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/POSIXに着想を得た規格化・個性化遷移モデルの提案.md",
-    "feedbacks/studentAge/3.graduateAge/1stGrade/Loom Core v0.1.md",
     "feedbacks/studentAge/2.collegeAge/4thGrade/Research/まとめ/Tempo/ResponsibilityArrow",
     "feedbacks/studentAge/2.collegeAge/4thGrade/Research/まとめ/Tempo/ReserachEndpoint",
     "feedbacks/studentAge/2.collegeAge/4thGrade/Research/まとめ/Tempo/Left&Right",
