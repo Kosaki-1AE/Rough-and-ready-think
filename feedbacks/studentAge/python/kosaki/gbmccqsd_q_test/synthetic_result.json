@@ -1,0 +1,16 @@
+{
+  "truth": {
+    "Q_habit": 0.32,
+    "theta_x": 0.22,
+    "theta_sin": -0.15
+  },
+  "recovered": {
+    "Q_habit": 0.31947408083457385,
+    "theta_x": 0.21773424971826436,
+    "theta_sin": -0.1497907405603741
+  },
+  "Q_inference_RMSE_vs_true": 2.414243217222443e-16,
+  "habit_context_RMSE": 0.024831871203307317,
+  "habit_context_R2": 0.9892821976205922,
+  "max_fixed_point_residual": 8.951173136040325e-16
+}
