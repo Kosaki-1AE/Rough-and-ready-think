@@ -1,5 +1,12 @@
 # macOS
 .DS_Store
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.npy
+*.task
+*.bvh
 
 # Windows
 Thumbs.db
