@@ -29,3 +29,4 @@ __pycache__/
 *.pyc
 node_modules/
 .Documents_git_backup.git/
+*.icloud
