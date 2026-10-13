@@ -30,3 +30,4 @@ __pycache__/
 node_modules/
 .Documents_git_backup.git/
 *.icloud
+.obsidian/workspace.json 
