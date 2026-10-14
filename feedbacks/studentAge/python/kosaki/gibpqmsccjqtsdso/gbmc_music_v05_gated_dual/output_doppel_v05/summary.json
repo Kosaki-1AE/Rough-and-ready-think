@@ -1,0 +1,99 @@
+{
+  "input": "doppelganger.wav",
+  "sample_rate": 44100,
+  "duration_s": 167.039,
+  "hop_ms_requested": 30.0,
+  "hop_ms_actual": 30.0,
+  "observation_frames": 5568,
+  "rooms": {
+    "0": "Input",
+    "1": "Buffer",
+    "2": "Pool",
+    "3": "Queue",
+    "4": "Motion",
+    "5": "Stack",
+    "6": "Coherence",
+    "7": "Capacity",
+    "8": "Jab",
+    "9": "Quality",
+    "A": "Twist",
+    "B": "Stillness",
+    "C": "Depth",
+    "D": "Straight",
+    "E": "Output",
+    "F": "Genesis"
+  },
+  "reference_count": 328,
+  "detected_reference_changes": 327,
+  "room_transitions": 4182,
+  "final_room": "F",
+  "note": "Exploratory engine. Room order and event thresholds are hypotheses, not proven brain or music semantics.",
+  "beat_analysis": {
+    "estimated_bpm": 79.51,
+    "tolerance_ms": 50.0,
+    "detected_restarts": 327,
+    "estimated_beats": 222,
+    "restarts_near_beats": 96,
+    "fraction_restarts_near_beats": 0.2936,
+    "beats_near_restarts": 96,
+    "fraction_beats_near_restarts": 0.4324,
+    "median_absolute_offset_ms": 24.467,
+    "interpretation": "Estimated beat proximity only; timing and BPM can have half/double-tempo or offset errors."
+  },
+  "layer_analysis": {
+    "method": "librosa HPSS + onset detection (approximate, non-causal, full-song)",
+    "analysis_sample_rate": 11025,
+    "drum_like_onsets": 897,
+    "melody_like_onsets": 753,
+    "disclaimer": "Percussive component may include non-drum transients; harmonic component may include vocals and bass. Not isolated instrument stems. No new GBMC reference decisions are made."
+  },
+  "gated_layer_runtimes": {
+    "drum": {
+      "reference_count": 1,
+      "detected_reference_changes": 0,
+      "room_transitions": 10,
+      "held_frames": 5553,
+      "final_room": "9",
+      "observation_frames": 5564
+    },
+    "melody": {
+      "reference_count": 1,
+      "detected_reference_changes": 0,
+      "room_transitions": 8,
+      "held_frames": 5555,
+      "final_room": "7",
+      "observation_frames": 5564
+    }
+  },
+  "gated_layer_rules": {
+    "min_transition_ms": 180.0,
+    "min_restart_ms": 2000.0,
+    "pattern_persistence": 3,
+    "note": "Onset-gated; approximate rhythmic position memory; thresholds experimental. Legacy counts remain unchanged for comparison."
+  },
+  "independent_layer_runtimes": {
+    "drum": {
+      "reference_count": 216,
+      "detected_reference_changes": 215,
+      "room_transitions": 4537,
+      "final_room": "1",
+      "observation_frames": 5564
+    },
+    "melody": {
+      "reference_count": 279,
+      "detected_reference_changes": 278,
+      "room_transitions": 4226,
+      "final_room": "F",
+      "observation_frames": 5564
+    }
+  },
+  "drum_melody_offset_analysis": {
+    "pair_tolerance_ms": 100.0,
+    "matched_pairs": 616,
+    "unmatched_drum_events": 281,
+    "unmatched_melody_events": 137,
+    "median_signed_offset_ms": 46.44,
+    "median_abs_offset_ms": 46.44,
+    "note": "Nearest-time one-to-one heuristic. Does not establish music-theoretic correspondence or intentional syncopation."
+  }
+}

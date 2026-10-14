@@ -1,0 +1,31 @@
+{
+  "input": "music.wav",
+  "sample_rate": 44100,
+  "duration_s": 167.039,
+  "hop_ms_requested": 30.0,
+  "hop_ms_actual": 30.0,
+  "observation_frames": 5568,
+  "rooms": {
+    "0": "Input",
+    "1": "Buffer",
+    "2": "Pool",
+    "3": "Queue",
+    "4": "Motion",
+    "5": "Stack",
+    "6": "Coherence",
+    "7": "Capacity",
+    "8": "Jab",
+    "9": "Quality",
+    "A": "Twist",
+    "B": "Stillness",
+    "C": "Depth",
+    "D": "Straight",
+    "E": "Output",
+    "F": "Genesis"
+  },
+  "reference_count": 328,
+  "detected_reference_changes": 327,
+  "room_transitions": 4182,
+  "final_room": "F",
+  "note": "Exploratory engine. Room order and event thresholds are hypotheses, not proven brain or music semantics."
+}
