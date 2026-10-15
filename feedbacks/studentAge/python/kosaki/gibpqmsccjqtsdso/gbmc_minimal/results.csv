@@ -1,0 +1,9 @@
+candidates,binary_observations_to_commit,final_event,committed
+2,1,COMMIT,C000
+4,2,COMMIT,C000
+8,3,COMMIT,C000
+16,4,COMMIT,C000
+32,5,COMMIT,C000
+64,6,COMMIT,C000
+128,7,COMMIT,C000
+256,8,COMMIT,C000

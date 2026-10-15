@@ -1,0 +1,43 @@
+{
+  "input": "music.wav",
+  "sample_rate": 44100,
+  "duration_s": 167.039,
+  "hop_ms_requested": 30.0,
+  "hop_ms_actual": 30.0,
+  "observation_frames": 5568,
+  "rooms": {
+    "0": "Input",
+    "1": "Buffer",
+    "2": "Pool",
+    "3": "Queue",
+    "4": "Motion",
+    "5": "Stack",
+    "6": "Coherence",
+    "7": "Capacity",
+    "8": "Jab",
+    "9": "Quality",
+    "A": "Twist",
+    "B": "Stillness",
+    "C": "Depth",
+    "D": "Straight",
+    "E": "Output",
+    "F": "Genesis"
+  },
+  "reference_count": 328,
+  "detected_reference_changes": 327,
+  "room_transitions": 4182,
+  "final_room": "F",
+  "note": "Exploratory engine. Room order and event thresholds are hypotheses, not proven brain or music semantics.",
+  "beat_analysis": {
+    "estimated_bpm": 79.51,
+    "tolerance_ms": 50.0,
+    "detected_restarts": 327,
+    "estimated_beats": 222,
+    "restarts_near_beats": 96,
+    "fraction_restarts_near_beats": 0.2936,
+    "beats_near_restarts": 96,
+    "fraction_beats_near_restarts": 0.4324,
+    "median_absolute_offset_ms": 24.467,
+    "interpretation": "Estimated beat proximity only; timing and BPM can have half/double-tempo or offset errors."
+  }
+}
