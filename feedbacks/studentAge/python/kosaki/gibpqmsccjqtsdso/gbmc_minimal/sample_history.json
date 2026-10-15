@@ -1,0 +1,12 @@
+{
+  "evidence": [
+    "A",
+    "B"
+  ],
+  "candidates": [
+    "A",
+    "B"
+  ],
+  "committed": null,
+  "event": "HOLD"
+}
