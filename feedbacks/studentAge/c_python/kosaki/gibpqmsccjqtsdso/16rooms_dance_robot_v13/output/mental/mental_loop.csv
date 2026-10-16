@@ -1,0 +1,7 @@
+event_id,chunk_id,phase,decision,next_action,reason,replay_frames,prediction_rows,reobserve_requests,room_visits
+1,sixstep,0.0,PROPOSED,SIMULATED_NOT_EXECUTED,ok,9,9,0,16
+2,sixstep,0.25,PROPOSED,SIMULATED_NOT_EXECUTED,ok,9,9,0,16
+3,sixstep,0.5,PROPOSED,SIMULATED_NOT_EXECUTED,ok,9,9,0,16
+4,sixstep,0.75,PROPOSED,SIMULATED_NOT_EXECUTED,ok,9,9,0,16
+5,sixstep,0.0,PROPOSED,SIMULATED_NOT_EXECUTED,ok,9,9,0,16
+6,unknown,0.1,HOLD,REOBSERVE,reference_chunk_absent,0,0,1,3

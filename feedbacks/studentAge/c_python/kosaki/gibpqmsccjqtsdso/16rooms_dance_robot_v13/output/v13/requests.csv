@@ -1,0 +1,3 @@
+event_id,chunk_id,phase,reason,request,state,fresh_event_id
+6,unknown,0.025,reference_chunk_absent,REOBSERVE_REFERENCE_AND_BODY,OPEN,
+6,unknown,0.025,missing_reference,REOBSERVE_REFERENCE,OPEN,

@@ -1,0 +1,2 @@
+chunk_id,start_phase,end_phase,keyframes,start_pose_json,end_pose_json,reference_source
+sixstep,0.0,0.75,4,"{""elbow_left_deg"": 90.0, ""elbow_right_deg"": 94.0, ""hip_left_deg"": 105.0, ""hip_right_deg"": 104.0, ""knee_left_deg"": 90.0, ""knee_right_deg"": 100.0, ""shoulder_left_deg"": 90.0, ""shoulder_right_deg"": 90.0}","{""elbow_left_deg"": 89.0, ""elbow_right_deg"": 92.0, ""hip_left_deg"": 104.0, ""hip_right_deg"": 110.0, ""knee_left_deg"": 90.0, ""knee_right_deg"": 93.0, ""shoulder_left_deg"": 90.0, ""shoulder_right_deg"": 100.0}",MEASURED_OR_USER_PROVIDED_REFERENCE

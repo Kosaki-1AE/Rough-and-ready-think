@@ -1,0 +1,6 @@
+event_id,joint,target_rad,mode
+1,left_shoulder_joint,0.0,UPPER_BODY_SIMULATION_ONLY
+2,left_shoulder_joint,0.053,UPPER_BODY_SIMULATION_ONLY
+3,left_shoulder_joint,0.105,UPPER_BODY_SIMULATION_ONLY
+4,left_shoulder_joint,0.007,UPPER_BODY_SIMULATION_ONLY
+5,left_shoulder_joint,0.009,UPPER_BODY_SIMULATION_ONLY

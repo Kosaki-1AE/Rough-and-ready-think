@@ -1,0 +1,10 @@
+{
+  "events": 6,
+  "hardware_commands": 0,
+  "hold": 1,
+  "imagined_predictions_NOT_experience": 45,
+  "proposed": 5,
+  "reobserve_requests": 2,
+  "unresolved_requests": 2,
+  "verified_feedback_samples": 4
+}

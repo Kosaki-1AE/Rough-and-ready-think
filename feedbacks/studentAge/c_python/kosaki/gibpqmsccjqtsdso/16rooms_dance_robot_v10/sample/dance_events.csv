@@ -1,0 +1,7 @@
+event_id,chunk_id,entry_time_ms,observed_time_ms,eight_duration_ms,beat_phase,visibility,ref_hip_angle,obs_hip_angle,ref_knee_angle,obs_knee_angle,ref_ankle_angle,obs_ankle_angle,ref_shoulder_angle,obs_shoulder_angle,ref_motion_phase,obs_motion_phase,teacher_verified
+1,sixstep_A,1000,1010,4000,0.00,0.96,40,43,85,88,95,93,70,68,0.0,0.02,yes
+2,sixstep_A,5000,5008,4000,0.00,0.97,40,42,85,89,95,94,70,68,0.0,0.01,yes
+3,sixstep_A,9000,9011,4000,0.00,0.95,40,42,85,87,95,93,70,69,0.0,0.02,yes
+4,sixstep_A,13000,13006,4000,0.00,0.98,40,42,85,87,95,96,70,70,0.0,0.01,yes
+5,headspin_B,17000,17008,4000,0.00,0.19,15,17,35,38,90,93,120,117,0.0,0.02,no
+6,sixstep_A,21000,21550,4000,0.00,0.96,40,45,85,95,95,99,70,76,0.0,0.1,no

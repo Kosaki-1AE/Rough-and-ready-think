@@ -1,0 +1,7 @@
+{
+  "robot": "SIMULATED MINI UPPER BODY",
+  "note": "Operator-defined illustration, NOT an NAO/G1 calibrated mapping. Never use directly for hardware.",
+  "joints": [
+    {"joint": "left_shoulder_joint", "feature": "shoulder_left_deg", "neutral_rad": 0.0, "scale_rad_per_deg": 0.01}
+  ]
+}

@@ -1,0 +1,7 @@
+event_id,chunk_id,status,reason,rooms_visited,decision_ms,reuse_enabled_before,verified_by_teacher,verified_experiences_after,pose_similarity,timing_score,robot_mean_joint_error_rad
+1,sixstep_A,PASS,all_gates_passed,14,0.1003,1,1,5,0.92686,0.98,0.04
+2,sixstep_A,PASS,all_gates_passed,14,0.0481,1,1,6,0.94057,0.984,0.03
+3,sixstep_A,PASS,all_gates_passed,14,0.0429,1,1,7,0.944,0.978,0.02
+4,sixstep_A,PASS,all_gates_passed,14,0.0405,1,1,8,0.96343,0.988,0.01
+5,headspin_B,HOLD,below_gate:visibility_proxy,3,0.0265,0,0,0,0.92114,0.984,0.02
+6,sixstep_A,HOLD,below_gate:entry_alignment,5,0.0252,1,0,8,0.77714,0.0,0.12

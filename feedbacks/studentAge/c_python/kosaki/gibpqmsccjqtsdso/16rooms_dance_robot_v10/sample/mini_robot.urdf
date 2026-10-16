@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="demo_only_not_nao_or_g1">
+  <link name="base"/>
+  <link name="hip"/>
+  <link name="leg"/>
+  <joint name="demo_hip" type="revolute">
+    <parent link="base"/><child link="hip"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/><axis xyz="0 1 0"/>
+    <limit lower="-1.0" upper="1.0" effort="10" velocity="1"/>
+  </joint>
+  <joint name="demo_knee" type="revolute">
+    <parent link="hip"/><child link="leg"/>
+    <origin xyz="0.1 0 -0.3" rpy="0 0 0"/><axis xyz="0 1 0"/>
+    <limit lower="-2" upper="0.1" effort="10" velocity="1"/>
+  </joint>
+</robot>

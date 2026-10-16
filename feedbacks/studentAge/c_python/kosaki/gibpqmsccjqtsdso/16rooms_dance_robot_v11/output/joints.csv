@@ -1,0 +1,4 @@
+joint,type,parent,child,local_x,local_y,local_z,complex_xy,abs_xy,lower_rad,upper_rad
+demo_hip,revolute,base,hip,0.0,0.0,0.2,0j,0.0,-1.0,1.0
+demo_knee,revolute,hip,leg,0.1,0.0,-0.3,(0.1+0j),0.1,-2.0,0.1
+left_shoulder_joint,revolute,base,left_upper_arm,0.0,0.12,0.3,0.12j,0.12,-1.5,1.5

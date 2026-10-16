@@ -1,0 +1,7 @@
+event_id,chunk_id,verified_feedback_rows,imagined_rows_not_training,training_rule
+1,sixstep,1,9,VERIFIED_MEASUREMENTS_ONLY
+2,sixstep,1,9,VERIFIED_MEASUREMENTS_ONLY
+3,sixstep,1,9,VERIFIED_MEASUREMENTS_ONLY
+4,sixstep,1,9,VERIFIED_MEASUREMENTS_ONLY
+5,sixstep,0,9,VERIFIED_MEASUREMENTS_ONLY
+6,unknown,0,0,VERIFIED_MEASUREMENTS_ONLY
