@@ -31,3 +31,27 @@ node_modules/
 .Documents_git_backup.git/
 *.icloud
 .obsidian/workspace.json 
+
+# Python virtual environments
+.venv/
+.venv_*/
+venv/
+__pycache__/
+*.pyc
+client_secret.json
+.youtube_oauth_token.json
+
+# Local OAuth credentials
+client_secret.json
+.youtube_oauth_token.json
+
+# Python environments
+.venv/
+.venv_*/
+venv/
+__pycache__/
+*.pyc
+
+# OAuth secrets
+client_secret.json
+.youtube_oauth_token.json
