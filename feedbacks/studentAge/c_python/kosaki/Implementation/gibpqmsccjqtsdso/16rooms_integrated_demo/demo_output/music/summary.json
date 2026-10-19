@@ -1,0 +1,75 @@
+{
+  "input": "demo_output/demo_synthetic.wav",
+  "sample_rate": 11025,
+  "duration_s": 4.0,
+  "hop_ms_requested": 30.0,
+  "hop_ms_actual": 30.02267573696145,
+  "observation_frames": 134,
+  "rooms": {
+    "0": "Input",
+    "1": "Buffer",
+    "2": "Pool",
+    "3": "Queue",
+    "4": "Motion",
+    "5": "Stack",
+    "6": "Coherence",
+    "7": "Capacity",
+    "8": "Jab",
+    "9": "Quality",
+    "A": "Twist",
+    "B": "Stillness",
+    "C": "Depth",
+    "D": "Straight",
+    "E": "Output",
+    "F": "Genesis"
+  },
+  "reference_count": 10,
+  "detected_reference_changes": 9,
+  "room_transitions": 0,
+  "final_room": "F",
+  "note": "Exploratory engine. Room order and event thresholds are hypotheses, not proven brain or music semantics.",
+  "beat_analysis": {
+    "estimated_bpm": null,
+    "tolerance_ms": 50.0,
+    "detected_restarts": 9,
+    "estimated_beats": 0,
+    "restarts_near_beats": 0,
+    "fraction_restarts_near_beats": 0.0,
+    "beats_near_restarts": 0,
+    "fraction_beats_near_restarts": null,
+    "median_absolute_offset_ms": null,
+    "interpretation": "Estimated beat proximity only; timing and BPM can have half/double-tempo or offset errors."
+  },
+  "layer_analysis": {
+    "method": "librosa HPSS + onset detection (approximate, non-causal, full-song)",
+    "analysis_sample_rate": 11025,
+    "drum_like_onsets": 8,
+    "melody_like_onsets": 9,
+    "disclaimer": "Percussive component may include non-drum transients; harmonic component may include vocals and bass. Not isolated instrument stems. No new GBMC reference decisions are made."
+  },
+  "independent_layer_runtimes": {
+    "drum": {
+      "reference_count": 11,
+      "detected_reference_changes": 10,
+      "room_transitions": 16,
+      "final_room": "F",
+      "observation_frames": 134
+    },
+    "melody": {
+      "reference_count": 2,
+      "detected_reference_changes": 1,
+      "room_transitions": 0,
+      "final_room": "F",
+      "observation_frames": 134
+    }
+  },
+  "drum_melody_offset_analysis": {
+    "pair_tolerance_ms": 100.0,
+    "matched_pairs": 8,
+    "unmatched_drum_events": 0,
+    "unmatched_melody_events": 1,
+    "median_signed_offset_ms": 69.66,
+    "median_abs_offset_ms": 69.66,
+    "note": "Nearest-time one-to-one heuristic. Does not establish music-theoretic correspondence or intentional syncopation."
+  }
+}
