@@ -1,7 +1,0 @@
-event_id,chunk_id,timestamp_ms,entry_time_ms,eight_duration_ms,phase,_sync_error,hip_left_deg,hip_right_deg,knee_left_deg,knee_right_deg,elbow_left_deg,elbow_right_deg,shoulder_left_deg,shoulder_right_deg
-1,sixstep,0,0,4000,0.0,,104,105,90,99,89,95,91,91
-2,sixstep,1000,0,4000,0.25,,109,107,85,105,92,93,94,88
-3,sixstep,2000,0,4000,0.5,,101,106,96,92,88,95,101,92
-4,sixstep,3000,0,4000,0.75,,105,108,91,95,89,90,90,99
-5,sixstep,4000,0,4000,0.0,,105,103,90,101,90,94,90,91
-6,unknown,4100,0,4000,0.025,,105,103,90,101,90,94,90,91
