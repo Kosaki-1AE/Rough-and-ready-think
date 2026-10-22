@@ -1,7 +1,0 @@
-event_id,robot,joint,target_rad,actual_rad
-1,NAO,RKneePitch,0.6,0.64
-2,NAO,RKneePitch,0.6,0.63
-3,NAO,RKneePitch,0.6,0.62
-4,NAO,RKneePitch,0.6,0.61
-5,NAO,RKneePitch,0.6,0.62
-6,NAO,RKneePitch,0.6,0.72

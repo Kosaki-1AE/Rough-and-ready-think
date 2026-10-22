@@ -1,2 +1,0 @@
-event_id,chunk_id,entry_time_ms,observed_time_ms,eight_duration_ms,beat_phase,observed_beat_phase,reference_sample_ms,observed_sample_ms,teacher_verified
-1,sixstep_A,1000,1010,4000,0.25,0.26,2000,2010,yes

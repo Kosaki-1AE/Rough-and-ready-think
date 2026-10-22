@@ -1,3 +1,0 @@
-joint,type,parent,child,local_x,local_y,local_z,root_x,root_y,root_z,w_xy,abs_xy,w_xz,abs_xz,w_yz,abs_yz,axis_x,axis_y,axis_z,lower,upper
-demo_hip,revolute,base,hip,0.0,0.0,0.2,0.0,0.0,0.2,0.0+0.0i,0.0,0.0+0.2i,0.2,0.0+0.2i,0.2,0.0,1.0,0.0,-1.0,1.0
-demo_knee,revolute,hip,leg,0.1,0.0,-0.3,0.1,0.0,-0.09999999999999998,0.1+0.0i,0.1,0.1+-0.1i,0.1414213562373095,0.0+-0.1i,0.09999999999999998,0.0,1.0,0.0,-2,0.1

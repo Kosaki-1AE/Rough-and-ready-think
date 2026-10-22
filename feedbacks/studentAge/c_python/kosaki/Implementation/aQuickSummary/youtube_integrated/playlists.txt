@@ -1,2 +1,0 @@
-# 自分のプレイリストURLを1行ずつ（他人の動画が含まれる場合は別途確認）
-# https://www.youtube.com/playlist?list=PLxxxxxxxxxxxx

@@ -1,2 +1,0 @@
-event_id,chunk_id,phase,reason,request
-6,unknown,0.1,reference_chunk_absent,REOBSERVE_REFERENCE_AND_BODY
