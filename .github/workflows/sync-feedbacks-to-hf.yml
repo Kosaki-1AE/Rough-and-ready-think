@@ -1,0 +1,37 @@
+name: Sync feedbacks to Hugging Face
+
+# Manual first: review the private dataset before enabling automatic push sync.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Hugging Face secret
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "::error::Create an HF_TOKEN GitHub Actions secret first."
+            exit 1
+          fi
+
+      - name: Checkout GitHub repository
+        uses: actions/checkout@v6
+        with:
+          lfs: true
+          persist-credentials: false
+
+      - name: Sync feedbacks directory to private HF dataset
+        uses: huggingface/hub-sync@v0.3.0
+        with:
+          github_repo_id: ${{ github.repository }}
+          huggingface_repo_id: Kosaki-1AE/rough-and-ready-thinking-feedbacks
+          hf_token: ${{ secrets.HF_TOKEN }}
+          repo_type: dataset
+          private: true
+          subdirectory: feedbacks
