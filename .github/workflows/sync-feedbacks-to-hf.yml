@@ -35,3 +35,4 @@ jobs:
           repo_type: dataset
           private: true
           subdirectory: feedbacks
+          delete_removed: false
